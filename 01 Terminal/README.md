@@ -2,7 +2,7 @@
 
 .zshrc is the zsh config file. to edit type `zshconfig`
 
-## shell prompt
+## Shell prompt
 `$`
 activates shell
 
@@ -85,7 +85,7 @@ removes a directory and all its child directories
 `rm -rf` 
 force recursive removes directory
 
-## other navigation ##
+## Other navigation ##
 
 
 `top`
@@ -100,7 +100,7 @@ force recursive removes directory
 `CONTOL + C`
 	cancel running command	
 	
-## finding things ##	
+## Finding things ##	
 
 `whereis`
 	finds program ex. whereis perl > user/bin/perl
