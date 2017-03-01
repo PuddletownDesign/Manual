@@ -29,9 +29,8 @@ lists and orders files and directories by time last modified
 `ls -alt`
 combines all above options
 
-***(-a, -l, and -t are options)**
-`pwd`
-	print working directory
+\* **(-a, -l, and -t are options)**
+`pwd` print working directory
 
 ## cd
 
