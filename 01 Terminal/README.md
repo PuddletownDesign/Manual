@@ -160,5 +160,5 @@ force recursive removes directory
 `find`
     ex. `find ~/ -iname "filename.txt"`
         `find` finds `~/` in location `"filename.txt"` filename
-or…
+or...
 `“*...*”` *wild card* finds a series of characters within other characters
