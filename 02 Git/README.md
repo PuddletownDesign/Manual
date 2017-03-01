@@ -1,34 +1,74 @@
-GIT INIT 	Creates a new repository
+# GIT 
+ \* =*zsh shortcut*
 
-GIT STATUS	Inspects the contents of the working directory
+## Git Commands
 
-GIT ADD		adds files from the working directory to the staging area
+### Utility Commands
+`GIT INIT` 	Creates a new repository 
+\*`gi`
 
-GIT DIFF	shows the difference between the working directory and the staging area
+`GIT INIT --bare` 	Creates a new bare repository. Used as a central repo
+\*`gib`
 
-GIT COMMIT	permanently stores changes from the staging area into the repo
+`GIT STATUS`	Inspects the contents of the working directory
+\* `gs`
 
-GIT LOG		shows a list of all previous commits
+`GIT LOG`		shows a list of all previous commits
+\*`gl`
 
-GIT CHECKOUT HEAD <filename>	discards changes in the working directory
+`GIT HELP LOG`/ `MAN GIT LOG`	shows a manual of all commands
 
-GIT RESET HEAD <filename> 	unstages file changes in the staging area
+### Staging/ Commiting
 
-GIT RESET SHA	can be used to reset to a previous commit in your history
+`GIT ADD`		adds files from the working directory to the staging area
+\* `ga`
 
-GIT BRANCH	list all of a git project’s branches
+`GIT COMMIT`	permanently stores changes from the staging area into the repo
+\*`gc`
 
-GIT BRANCH <branch name>	creates a new branch
+### Branching/ Checking out
+`GIT BRANCH`	list all of a git project’s branches
+`GIT BRANCH <branch name>`	creates a new branch
+\*`gb`
 
-GIT CHECKOUT <branch name> 	used to switch from one branch to another
 
-GIT MERGE <branch name>	used to join file changes from one branch to another *must be done from MASTER
+`GIT BRANCH -d <branch name>`	Deletes branch
+\*`gbd`
 
-GIT BRANCH -d <branch name>	Deletes branch
+`GIT BRANCH -D <branch name>`	force deletes branch
+\*`gbD`
 
-GIT BRANCH -D <branch name>	force deletes branch
+`GIT CHECKOUT HEAD`     resets to head of branch
+`GIT CHECKOUT HEAD <filename>`	discards changes in the working directory
+\*`gch`
 
-GIT HELP LOG/ MAN GIT LOG	shows a manual of all commands
+`GIT CHECKOUT <branch name>` 	used to switch from one branch to another
+\*`gcb`
+
+### Pushing/ Pulling / Cloning
+`GIT CLONE <repo url>` - Clones the repository locally
+\* `gcl`
+
+`GIT PUSH ORIGIN MASTER` pushes new commits back to github 
+\*`gpush` - Pushes updates from local to the remote
+
+`GIT PULL ORIGIN MASTER` - Pulls the 
+\*`gpull` - Pulls the remote updates to the repo
+
+### Diffing / Merging
+`GIT DIFF` shows the difference between the working directory and the staging area
+
+`GIT MERGE <branch name>`	used to join file changes from one branch to another *must be done from MASTER
+\*`gm`
+
+### Reverting
+
+`GIT RESET HEAD <filename>` 	unstages file changes in the staging area
+\*`grh`
+
+`GIT RESET SHA`	can be used to reset to a previous commit in your history
+
+
 
 
 
