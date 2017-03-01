@@ -10,7 +10,7 @@
   'alt-cmd-w': 'editor:toggle-soft-wrap'
   'alt-cmd-e': 'html-entitize:encode'
   'alt-cmd-d': 'html-entitize:decode'
-  'cmd-/': 'wrap-in-tag:wrap'
+  'cmd-`': 'wrap-in-tag:wrap'
 ```
 
 ## Useful keyboard shortcuts
