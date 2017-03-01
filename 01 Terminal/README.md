@@ -8,21 +8,21 @@ activates shell
 
 ## RTFM
 
-`man <program name>` 
+`man <program name>`
 read the manual pages
 	- hit `q` to escape the manual pages
 
 ## ls
 
-`ls`= list  
+`ls`= list
 	lists directories
 
 `ls -a`
 lists directories + files starting with a dot (.hidden)
 
-`ls -l` 
+`ls -l`
 lists all contents of a directory in long format
-	
+
 `ls -t `
 lists and orders files and directories by time last modified
 
@@ -33,17 +33,17 @@ combines all above options
 `pwd`
 	print working directory
 
-## cd 
+## cd
 
 *change directory <argument>*
-	
-`cd ..` 
+
+`cd ..`
 		navigates up one directory
-		
+
 `cd ../../`
 navigates up 2 directories
 
-`cd ../../<filename>` 
+`cd ../../<filename>`
 		navigates up 2 directories and into <filename>
 
 ## Making directories and files
@@ -53,11 +53,11 @@ make new directory
 
 `touch`
 	create new file within directory
-	
+
 `pico`
 	enter text edit to create new file from within iTerm
 
-`cp` 
+`cp`
 	copy
 
 `cp *<name>`
@@ -72,25 +72,25 @@ move file (rename)
 `mv <file> <directory>`
 moves file into directory
 
-`mv <filenameA.txt> <filenameB.txt>` 
+`mv <filenameA.txt> <filenameB.txt>`
 changes the filename from a to b
 
 `rm`
 remove a file
 
 `rm -r`
-remove recursive: 
+remove recursive:
 removes a directory and all its child directories
 
-`rm -rf` 
+`rm -rf`
 force recursive removes directory
 
 ## Other navigation ##
 
 
 `top`
-	shows all programs running/ cpu 
-	
+	shows all programs running/ cpu
+
 `q`
 	escapes from list
 
@@ -98,9 +98,9 @@ force recursive removes directory
 	clears screen
 
 `CONTOL + C`
-	cancel running command	
-	
-## Finding things ##	
+	cancel running command
+
+## Finding things ##
 
 `whereis`
 	finds program ex. whereis perl > user/bin/perl
@@ -110,13 +110,13 @@ force recursive removes directory
 `grep`
 	ex. `grep -rachel <filename>`
 	sort through long files or dir for specific word or character
-	
+
 `cat`
 	displays the contents of a text file
-	
+
 
 `find`
     ex. `find ~/ -iname "filename.txt"`
-        `find` finds `~/` in location `"filename.txt"` filename 
+        `find` finds `~/` in location `"filename.txt"` filename
 or…
-`“*……*”` *wild card* finds a series of characters within other characters 
+`“*……*”` *wild card* finds a series of characters within other characters
