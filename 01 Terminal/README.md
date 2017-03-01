@@ -1,4 +1,4 @@
-# **Command Line**
+# Command Line
 
 ## Shell prompt
 `$` *indicates the shell prompt in writing*
