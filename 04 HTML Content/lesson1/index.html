@@ -1,113 +1,152 @@
-Command Line
+<h1>Command Line</h1>
 
-Shell prompt
+<h2>Shell prompt</h2>
 
-$ indicates the shell prompt in writing
+<p><em><code>$</code> indicates the shell prompt in writing</em></p>
 
-Shells and configuration
-zsh
-The default shell is usually configured to bash. We want to change the default shell to zsh.
+<h2>Shells and configuration</h2>
 
-To check your current shell:
+<h3>zsh</h3>
+<p>The default shell is usually configured to bash. We want to change the default shell to zsh.</p>
 
+<p>To check your current shell:</p>
 
-$ echo $SHELL
+<pre><code>$ echo $SHELL</code></pre>
 
-If it is not set to zsh, do so by entering:
+<p>If it is not set to zsh, do so by entering:</p>
 
+<pre><code>$ chsh -s /usr/bin/zsh</code></pre>
 
-$ chsh -s /usr/bin/zsh
+<h3>Oh my zsh</h3>
 
-Oh my zsh
-Oh my zsh is a custom configuration to the zsh shell.
+<p>Oh my zsh is a custom configuration to the zsh shell.</p>
 
-Read about oh my zsh here:
+<p>Read about oh my zsh here:</p>
 
-https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
+<a href="https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH">https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH</a>
 
-Install oh my zsh by entering:
+<p>Install oh my zsh by entering:</p>
 
-
-$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
+<pre><code>$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"</code></pre>
 Zsh is configured through the .zshrc file
 
-.zshrc is the zsh config file. to edit type zshconfig
+<p><code>.zshrc</code> is the zsh config file. to edit type <code>zshconfig</code></p>
 
-Installing mac terminal package manager
-Brew is the best mac terminal package manager. It can be installed by running:
+<h2>Installing mac terminal package manager</h2>
 
+<p>Brew is the best mac terminal package manager. It can be installed by running:</p>
 
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-You can read more about it here: https://brew.sh
+You can read more about it here: <a href="https://brew.sh">https://brew.sh</a>
 
-Command Reference
-RTFM
-man <program name> read the manual pages. Hit q to escape the manual pages
+<h2>Command Reference</h2>
 
-ls
-ls= list lists directories
+<h3>RTFM</h3>
 
-ls -a lists directories + files starting with a dot (.hidden)
+<p><code>man &lt;program name&gt;</code> <br> read the manual pages. Hit q to escape the manual pages</p>
 
-ls -l lists all contents of a directory in long format
+<h3>ls</h3>
 
-ls -t lists and orders files and directories by time last modified
+<code>ls</code>= list <br>
+lists directories
 
-ls -alt combines all above options
+<p><code>ls -a</code><br>
+ lists directories + files starting with a dot (.hidden)</p>
 
-* (-a, -l, and -t are options) pwd print working directory
+<p><code>ls -l</code><br>
+ lists all contents of a directory in long format</p>
 
-cd
+<p><code>ls -t </code><br>
+lists and orders files and directories by time last modified</p>
+
+<p><code>ls -alt </code><br>
+combines all above options</p>
+
+<p>* <strong>(-a, -l, and -t are options)</strong> </p>
+
+<p><code>pwd</code> print working directory</p>
+
+<h3>cd</h3>
 change directory
 
-cd .. navigates up one directory
+<p><code>cd .. </code><br>
+navigates up one directory</p>
 
-cd ../../ navigates up 2 directories
+<p><code>cd ../../ </code><br>
+navigates up 2 directories</p>
 
-cd ../../<filename> navigates up 2 directories and into
+<p><code>cd ../../&lt;filename&gt; </code><br>
+navigates up 2 directories and into</p>
 
-Making directories and files
-mkdir make new directory
+<h3>Making directories and files</h3>
 
-touch create new file within directory
+<p><code>mkdir </code><br>
+make new directory</p>
 
-pico enter text edit to create new file from within iTerm
+<p><code>touch</code> <br>
+create new file within directory</p>
 
-cp copy
+<p><code>pico</code> <br>
+enter text edit to create new file from within iTerm</p>
 
-cp *<name> selects all files in the working directory
+<p><code>cp</code> <br>
+copy</p>
 
-cp *<origin> <destination> copies all files (origin) into another directory (destination)
+<p><code>cp *&lt;name&gt; </code><br>
+selects all files in the working directory</p>
 
-mv move file (rename)
+<p><code>cp *&lt;origin&gt; &lt;destination&gt; </code><br>
+copies all files (origin) into another directory (destination)</p>
 
-mv <file> <directory> moves file into directory
+<p><code>mv </code><br>
+move file (rename)</p>
 
-mv <filenameA.txt> <filenameB.txt> changes the filename from a to b
+<p><code>mv &lt;file&gt; &lt;directory&gt;</code> <br>
+moves file into directory</p>
 
-rm remove a file
+<p><code>mv &lt;filenameA.txt&gt; &lt;filenameB.txt&gt; </code><br>
+changes the filename from a to b</p>
 
-rm -r remove recursive: removes a directory and all its child directories
+<p><code>rm </code><br>
+remove a file</p>
 
-rm -rf force recursive removes directory
+<p><code>rm -r</code> <br>
+remove recursive: removes a directory and all its child directories</p>
 
-Other navigation
-top shows all programs running/ cpu
+<p><code>rm -rf </code><br>
+force recursive removes directory</p>
 
-q escapes from list
+<h3>Other navigation</h3>
 
-clear clears screen
+<p><code>top </code><br>
+shows all programs running/ cpu</p>
 
-CONTOL + C cancel running command
+<p><code>q</code> <br>
+escapes from list</p>
 
-Finding things
-whereis finds program ex. whereis perl > user/bin/perl
+<p><code>clear </code><br>
+clears screen</p>
 
-The Grepping and the Piping
-grep ex. grep -rachel <filename> sort through long files or dir for specific word or character
+<p><code>CONTOL + C</code> <br>
+cancel running command</p>
 
-cat displays the contents of a text file
+<h3>Finding things</h3>
 
-find ex. find ~/ -iname "filename.txt" find finds ~/ in location "filename.txt" filename or… “*...*” wild card finds a series of characters within other characters
+<p><code>whereis</code> <br>
+finds program ex. <code>whereis perl &gt; user/bin/perl</code></p>
+
+<h3>The Grepping and the Piping</h3>
+
+<p><code>grep</code> <br>
+ex. <code>grep -rachel &lt;filename&gt; </code><br>
+sort through long files or dir for specific word or character</p>
+
+<p><code>cat</code> <br>
+displays the contents of a text file</p>
+
+<p><code>find </code><br>
+ ex. <code>find ~/ -iname &quot;filename.txt&quot;</code> <br>
+<code>find</code> finds <code>~/</code> in location <code>&quot;filename.txt&quot;</code> filename</p>
+
+ <p>or...<br> &ldquo;*...*&rdquo; wild card finds a series of characters within other characters</p>
