@@ -1,18 +1,62 @@
 # **Command Line**
 
-.zshrc is the zsh config file. to edit type `zshconfig`
-
 ## Shell prompt
-`$`
-activates shell
+`$` *indicates the shell prompt in writing*
 
-## RTFM
+## Shells and configuration
+
+### zsh
+
+The default shell is usually configured to bash. We want to change the default shell to zsh.
+
+To check your current shell:
+
+```
+$ echo $SHELL
+```
+
+If it is not set to zsh, do so by entering:
+
+```
+$ chsh -s /usr/bin/zsh
+```
+
+### Oh my zsh
+
+Oh my zsh is a custom configuration to the zsh shell.
+
+Read about oh my zsh here:
+
+<https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH>
+
+Install oh my zsh by entering:
+
+```
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
+
+Zsh is configured through the .zshrc file
+
+`.zshrc` is the zsh config file. to edit type `zshconfig`
+
+## Installing mac terminal package manager
+
+Brew is the best mac terminal package manager. It can be installed by running:
+
+```
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+You can read more about it here:
+<https://brew.sh>
+
+## Command Reference
+
+### RTFM
 
 `man <program name>`
-read the manual pages
-	- hit `q` to escape the manual pages
+read the manual pages. Hit `q` to escape the manual pages
 
-## ls
+### ls
 
 `ls`= list
 	lists directories
@@ -32,7 +76,7 @@ combines all above options
 \* **(-a, -l, and -t are options)**
 `pwd` print working directory
 
-## cd
+### cd
 
 *change directory <argument>*
 
@@ -45,7 +89,7 @@ navigates up 2 directories
 `cd ../../<filename>`
 		navigates up 2 directories and into <filename>
 
-## Making directories and files
+### Making directories and files
 
 `mkdir`
 make new directory
@@ -84,7 +128,7 @@ removes a directory and all its child directories
 `rm -rf`
 force recursive removes directory
 
-## Other navigation ##
+### Other navigation
 
 
 `top`
@@ -99,13 +143,12 @@ force recursive removes directory
 `CONTOL + C`
 	cancel running command
 
-## Finding things ##
+### Finding things
 
 `whereis`
 	finds program ex. whereis perl > user/bin/perl
 
-### the Grepping and the Piping
-##### the grepping and the piping
+### The Grepping and the Piping
 `grep`
 	ex. `grep -rachel <filename>`
 	sort through long files or dir for specific word or character
@@ -118,4 +161,4 @@ force recursive removes directory
     ex. `find ~/ -iname "filename.txt"`
         `find` finds `~/` in location `"filename.txt"` filename
 or…
-`“*……*”` *wild card* finds a series of characters within other characters
+`“*...*”` *wild card* finds a series of characters within other characters
