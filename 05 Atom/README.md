@@ -20,13 +20,18 @@
 
 * `ctrl + 0` - toggle to tree view
 * `a`, `m`, `delete` - when in treeview to *add, move, delete files*
+* `cmd + g` - Move to a specific line (and column 30:45)
+* `cmd + shift + l` - selects multiple lines (on selected text), great for wrapping multiple lines at once. 
 
-#### Searching
+### Searching
 
+* `cmd + f` - Search file for text
+* `cmd + shift + f` - search whole project
 * `cmd + t` or `cmd + p` - open fuzzy file finder. *Search the project for file name*
 * `cmd + b` - search only open files
 
-### Marking
+### Bookmarking
 
-* `F2` - Bookmark line
-* `cmd + F2` - Jump to next Bookmark
+* `cmd + F2` - Bookmark line
+* `F2` - Jump to next Bookmark. *`+Shift` for previous bookmark*
+* `ctrl + f2` - see/ search all bookmarks in file
