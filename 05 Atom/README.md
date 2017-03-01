@@ -10,7 +10,7 @@
   'alt-cmd-w': 'editor:toggle-soft-wrap'
   'alt-cmd-e': 'html-entitize:encode'
   'alt-cmd-d': 'html-entitize:decode'
-  'cmd-`': 'wrap-in-tag:wrap'
+  'cmd-~': 'wrap-in-tag:wrap'
 ```
 
 ## Useful keyboard shortcuts
@@ -20,7 +20,7 @@
 *This still has some snags, make sure to do it only on the first column until it gets fixed*
 
 1. `cmd + shift + l` - selects multiple lines (on selected text), great for wrapping multiple lines at
-2. `cmd + /` - wraps the lines in tags
+2. `cmd + ~` - wraps the lines in tags
 
 ### Movement
 
