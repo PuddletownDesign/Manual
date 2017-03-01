@@ -15,13 +15,19 @@
 
 ## Useful keyboard shortcuts
 
+### Wrapping multiple lines
+
+*This still has some snags, make sure to do it only on the first column until it gets fixed*
+
+1. `cmd + shift + l` - selects multiple lines (on selected text), great for wrapping multiple lines at
+2. `cmd + /` - wraps the lines in tags
 
 ### Movement
 
 * `ctrl + 0` - toggle to tree view
 * `a`, `m`, `delete` - when in treeview to *add, move, delete files*
 * `cmd + g` - Move to a specific line (and column 30:45)
-* `cmd + shift + l` - selects multiple lines (on selected text), great for wrapping multiple lines at once. 
+ once.
 
 ### Searching
 
