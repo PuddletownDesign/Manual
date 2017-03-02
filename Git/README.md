@@ -1,10 +1,21 @@
-# GIT 
+# GIT
+
+Git is the flow of a project. It watches everything that changes. You can revert back to any point of changes or manage a large team of programmers and merge all their work together. It can be very difficult to understand some of the concepts, stick with it. It's the underlying foundation of how you will work.
+
+## Reference
+
+This is the best place to start. Work through the examples. *Ignore anything mentioning SVN, you can just skip over it.*
+
+<https://www.atlassian.com/git>
+
+## Notation
  \* =*zsh shortcut*
 
-## Git Commands
+## Most Common Git Commands
 
 ### Utility Commands
-`GIT INIT` 	Creates a new repository 
+
+`GIT INIT` 	Creates a new repository
 \*`gi`
 
 `GIT INIT --bare` 	Creates a new bare repository. Used as a central repo
@@ -49,10 +60,10 @@
 `GIT CLONE <repo url>` - Clones the repository locally
 \* `gcl`
 
-`GIT PUSH ORIGIN MASTER` pushes new commits back to github 
+`GIT PUSH ORIGIN MASTER` pushes new commits back to github
 \*`gpush` - Pushes updates from local to the remote
 
-`GIT PULL ORIGIN MASTER` - Pulls the 
+`GIT PULL ORIGIN MASTER` - Pulls the
 \*`gpull` - Pulls the remote updates to the repo
 
 ### Diffing / Merging
@@ -67,9 +78,3 @@
 \*`grh`
 
 `GIT RESET SHA`	can be used to reset to a previous commit in your history
-
-
-
-
-
- 
