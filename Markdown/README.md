@@ -1,6 +1,6 @@
 # Markdown
 
-Markdown is a lightweight mark up language that converts directly into HTML. It's used to format documents
+Markdown is a lightweight mark up language that converts directly into HTML. It's used to format text.
 
 ## Guides
 

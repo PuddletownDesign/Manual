@@ -1,13 +1,32 @@
 # Command Line
 
+In the modern world most development is done through the terminal. I'm not 100% sure why. People could easily create apps with interfaces to do all of this. My guess is, that once you get used to it, it's actually easier.
+
+## iTerm2
+
+Download and install iTerm2 here.
+
+<https://www.iterm2.com>
+
+Download and install my default settings here.
+
+### Install iterm2 custom settings
+
+
+
 ## Shell prompt
-`$` *indicates the shell prompt in writing*
+
+The shell prompt is the line of text right before the blinking cursor. It's waiting for input.
+
+`$` *indicates the shell prompt in writing* - **If you copy and paste, DO NOT copy the dollar sign from the examples. Only the text after it.**
 
 ## Shells and configuration
 
-### zsh
+The shell is the program that interprets your input. The default shell is usually configured to bash. We want to change the default shell to zsh.
 
-The default shell is usually configured to bash. We want to change the default shell to zsh.
+### zsh (Z shell)
+
+Zsh is more modern and a lot more extensible. We'll still use bash sometimes, but not for general purposes.
 
 To check your current shell:
 
@@ -29,7 +48,7 @@ Read about oh my zsh here:
 
 <https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH>
 
-Install oh my zsh by entering:
+Install oh my zsh by entering into terminal:
 
 ```
 $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -41,20 +60,32 @@ Zsh is configured through the .zshrc file
 
 ## Installing mac terminal package manager
 
-Brew is the best mac terminal package manager. It can be installed by running:
+A terminal package manager is like the app store or google play store for terminal. It downloads and installs programs for you to use. Brew is the best mac terminal package manager. It can be installed by running:
 
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
+
+To install a program that you don't have simply type:
+
+```
+$ brew install <program name>
+```
+
 You can read more about it here:
+
 <https://brew.sh>
 
-## Command Reference
+## Basic Terminal Command Reference
 
-### RTFM
+Terminal commands like `ls`, `cd` are just programs that just in the terminal. They often don't have a visual interface. But they're apps all the same like the ones you use on your phone.
+
+### RTFM (Read The Fucking Manual)
 
 `man <program name>`
 read the manual pages. Hit `q` to escape the manual pages
+
+*These things look fucked up at first, but it's important to learn how to read them. Keep looking at them with any about commands*
 
 ### ls
 
