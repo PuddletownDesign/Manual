@@ -4,8 +4,8 @@
 
 ## Table of contents
 
-* [01 Terminal](https://github.com/RachelFrank/Manual/tree/master/01%20Terminal)
-* [02 Git](https://github.com/RachelFrank/Manual/tree/master/02%20Git)
-* [03 Markdown](https://github.com/RachelFrank/Manual/tree/master/03%20Markdown)
-* [04 HTML Content](https://github.com/RachelFrank/Manual/tree/master/04%20HTML%20Content)
-* [05 Atom](https://github.com/RachelFrank/Manual/tree/master/05%20Atom)
+* [01 Terminal](https://github.com/RachelFrank/Manual/tree/master/Terminal)
+* [02 Git](https://github.com/RachelFrank/Manual/tree/master/Git)
+* [03 Atom](https://github.com/RachelFrank/Manual/tree/master/Atom)
+* [04 Markdown](https://github.com/RachelFrank/Manual/tree/master/Markdown)
+* [05 HTML Content](https://github.com/RachelFrank/Manual/tree/master/HTML-Content)
