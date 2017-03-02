@@ -2,7 +2,8 @@
 
 ## Atom keyboard shortcuts
 
-* `command + /` wraps selected text in html tag (default p)
+* `command + ~` wraps selected text in html tag (default p)
+* `command + shift + l` selects multiple lines to edit multiple lines
 * `command + option + w` toggles line wrapping
 * `command + option + e` encodes selected special html characters
 * `command + option + d` decodes selected special html characters
