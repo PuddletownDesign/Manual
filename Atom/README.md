@@ -24,6 +24,9 @@
 
 ### Movement
 
+* `command + \` - Show/hide treeview
+* `ctrl + shift + L` - change syntax
+* `command + number` - Switch to that tab
 * `ctrl + 0` - toggle to tree view
 * `a`, `m`, `delete` - when in treeview to *add, move, delete files*
 * `cmd + g` - Move to a specific line (and column 30:45)
