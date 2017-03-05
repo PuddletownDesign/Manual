@@ -1,17 +1,26 @@
 html {
-
+  background-color: grey;
 }
 
 body {
-
+  padding: 1em;
+  margin: 1em auto;
+  width: 35em;
+  background-color: white;
 }
 
 h1 {
-
+  color: green;
 }
+
 h2 {
-
+  color: orange;
 }
+
 blockquote {
+  background-color: lightgrey;
+  text-align: center;
+  padding: 20px;
+
 
 }
