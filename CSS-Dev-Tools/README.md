@@ -1,0 +1,21 @@
+# CSS Developer Tools
+
+Here we will learn the basics of debugging CSS.
+
+## Chrome Developer Tools
+
+Developer tools that come bundled with chrome. They are always there and always running.
+
+1.  **To open dev tools** on any page `cmd + opt + i`
+2.  **To open a specific element** (ctrl or right click on any element on the page).
+
+First when you open developer tools, I suggest creating a pop out window for it at first. *Click the three dots on the right, top side and click the icon that looks like a pop out window*
+
+## Debugging CSS
+
+1.  On the top or left pane, Make sure `Elements tab` is selected
+2.  On the Right or bottom pane make sure `Styles is selected`
+
+## More information and a tutorial
+
+*   [Video Tutorial](https://www.youtube.com/watch?v=Z3HGJsNLQ1E)
