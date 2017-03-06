@@ -9,7 +9,7 @@ html {
 
 body {
   background-color: white;
-  margin: 1em auto;
+      margin: 1em auto;
   padding: 1em;
   width: 75em;
 }
@@ -33,9 +33,6 @@ h2 {
 blockquote {
   background-color: black;
   color: white;
-  padding: 1em;
-}
-=======
   margin: 1em;
   padding-top: 1em;
   text-align: center;
@@ -59,12 +56,6 @@ h2 {
 
 }
 
-ul {
-
-}
-
-ol {
-
 }
 
 li {
@@ -75,18 +66,15 @@ blockquote {
 
 }
 
->>>>>>> a17a7045dbd2e095bb87aca88541d54a599baee4
 blockquote cite {
 
 }
 
 p {
-<<<<<<< HEAD
+
   margin: 0 auto;
   width: 23em;
-  border: 1px;
-=======
-  border-bottom: 1px solid #666;
->>>>>>> a17a7045dbd2e095bb87aca88541d54a599baee4
-  padding-bottom: 1em;
+
+
+
 }
