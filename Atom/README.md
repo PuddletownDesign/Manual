@@ -10,7 +10,7 @@
 
 ### Settings > Editior
 
-1. Set tabs to 4 spaces
+1.  Set tabs to 4 spaces
 
 ### Settings > packages
 
