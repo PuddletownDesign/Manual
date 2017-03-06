@@ -1,52 +1,64 @@
 /* You're on you're own here... */
+
 html {
-  text-align: center;
-  background-color: grey;
-  padding: 0;
+    text-align: center;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  background-color: white;
-  margin: 1em auto;
-  padding: 1em;
-  width: 75em;
+    background-color: white;
+    margin: 1em auto;
+    padding: 1em;
+    width: 75em;
 }
 
 ol, ul {
-  list-style: none;
-  padding-left: 0;
+    list-style: none;
+    padding-left: 0;
 }
 
 blockquote {
-  background-color: black;
-  color: white;
-  padding: 1em;
-  margin: 1em;
-  padding-top: 1em;
-  text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1em;
+    margin: 1em;
+    text-align: center;
 }
 
 h1 {
-  background-color: purple;
-  color: white;
-  padding: 1em 2em;
-  margin: 1em;
+    background-color: purple;
+    color: white;
+    padding: 1em 2em;
+    margin: 1em;
 }
 
 h1 a {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 h2 {
-  border-top: 1px solid grey;
-  padding-top: 1em;
+    border-top: 1px solid grey;
+    padding-top: 1em;
 }
 
 p {
-  margin: 0 auto;
-  width: 23em;
-  border: 1px solid grey;
-  border-bottom: 1px solid #666;
-  padding-bottom: 1em;
+    margin: 0 auto;
+    width: 23em;
+    border: 1px solid grey;
+    border-bottom: 1px solid #666;
+    padding-bottom: 1em;
+}
+
+li {}
+
+blockquote {}
+
+blockquote cite {}
+
+p {
+    margin: 0 auto;
+    width: 23em;
 }
