@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tables</title>
+	<style type="text/css">
+		td,
+		th {
+			padding: 1em;
+			background-color: #000;
+			color: #fff;
+		}
+
+		th {
+			background-color: #523873;
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>Data Table Examples</h1>
+
+	<h2>Basic Table</h2>
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">name</th>
+				<th scope="col">phone</th>
+				<th scope="col">email</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>brent</td>
+				<td>555.555.5555</td>
+				<td>brent@pudletowndesign.com</td>
+			</tr>
+			<tr>
+				<td>roos</td>
+				<td>555.555.5555</td>
+				<td>russ@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h2>Variable column widths</h2>
+	<p>Columns all just need to add up to header</p>
+
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Name</th>
+				<th scope="col">Gmail</th>
+				<th scope="col">Skype</th>
+				<th scope="col">Apple</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Brent</td>
+				<td colspan="2">puddletowndesign@gmail.com</td>
+				<td>brent@apple.com</td>
+
+			</tr>
+			<tr>
+				<td>Roos</td>
+				<td>roos@gmail.com</td>
+				<td colspan="2">roos@apple-skype.com</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h2>Vertical table with rows for headers</h2>
+	<p>Also make note of the rowspan on games played column</p>
+	<table>
+		<thead>
+			<tr>
+				<th scope="col">Team</th>
+				<th scope="col">wins</th>
+				<th scope="col">losses</th>
+				<th scope="col">Games Played</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th scope="col">Blu team</th>
+				<td>15</td>
+				<td>12</td>
+				<td rowspan="2">27</td>
+			</tr>
+			<tr>
+				<th scope="col">Red Team</th>
+				<td>12</td>
+				<td>15</td>
+			</tr>
+		</tbody>
+	</table>
+
+</body>
+
+</html>
