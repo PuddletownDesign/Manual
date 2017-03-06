@@ -3,6 +3,39 @@
 *   Download atom here: <https://atom.io>
 *   Atom flight manual: <http://flight-manual.atom.io>
 
+
+## Initial Configuration
+
+### Settings > Core
+
+### Settings > Editior
+
+
+
+### Settings > packages
+
+**Disable all unneeded packages**
+
+Packages that you're not using take extra time to load and make the editor slower.
+
+1.  autoflow
+2.  background tips
+3.  Language C
+4.  Language Clojure
+5.  Language cSharp
+6.  Language Go
+7.  Language Java
+8.  Language Less
+9.  Language Make
+10. Language Objective C
+11. Language Perl
+12. Language Ruby/Ruby on Rails
+13. Language Toml
+14. Language XML
+15. Welcome
+16. Wrap Guide
+17. Status bar package
+
 ## Initial custom keybindings
 
 ```
@@ -13,7 +46,31 @@
   'cmd-~': 'wrap-in-tag:wrap'
 ```
 
+## Useful packages
+
+*   No Title Bar - `apm install no-title-bar`
+*   Wrap in tag - `apm-atom-wrap-in-tag`
+*   Color Picker - `apm install color-picker`
+*   Pigments - `apm install pigments`
+*   Git Plus - `apm install git-plus`
+*   File Icons - `apm install file-icons`
+*   Beautify - `apm install atom-beautify`
+*   Emmet - `apm install emmet`
+*   Emmet Snippets Compatibility - `apm install emmet-snippets-compatibility`
+*   Docblockr - `apm install docblockr`
+*   Highlight Selected - `apm install highlight-selected`
+*   HTML Entitize - `apm install html-entitize`
+*   Linter - `apm install linter`
+*   Linter HTML - `apm install linter-htmlhint`
+*   Linter Markdown - `apm install linter-markdown`
+
+
 ## Useful keyboard shortcuts
+
+### Packages
+
+`ctrl + shift + m` - Render markdown preview
+`cmd + shift + c` - open color picker
 
 ### Wrapping multiple lines
 
@@ -30,7 +87,6 @@
 *   `command + number` - Switch to that tab
 *   `a`, `m`, `delete`, `shift + a` - when in treeview to *add, move, delete files, new folder*
 *   `cmd + g` - Move to a specific line (and column 30:45)
-
 
 
 ### Searching
