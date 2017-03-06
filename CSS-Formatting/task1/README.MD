@@ -14,28 +14,28 @@ Try to match the screen shot by adding CSS into the style.css file.
 
 ### These are all the CSS styles that I used to generate the example:
 
-* background-color
-* padding
-* margin
-* width
-* text-align
-* color
+*   background-color
+*   padding
+*   margin
+*   width
+*   text-align
+*   color
 
 ## Basic workflow... at least for now ;)
 
 ### you'll have to open the page in chrome
 
-1. make change
-2. save file
-3. tab over to and refresh browser
-4. see if changes are correct
-5. repeat
+1.  make change
+2.  save file
+3.  tab over to and refresh browser
+4.  see if changes are correct
+5.  repeat
 
 I've included the html, body and h1 tags for you for reference. Look them up and figure out where to apply them. Have fun with the `blockquote`.
 
 CSS will take some serious reading, but it's very very very simple once you get the hang of it. I have a lot of opinions on the subject. Lucky for you it's about 400% easier than it was 10 years ago for various reasons.
 
-**Code snippets and shortcuts are 100% required at this point.** You want to be able to toggle through list of values per keybord shortcut. There's a lot here to memorize unfortunately.
+**Code snippets and shortcuts are 100% required at this point.** You want to be able to toggle through list of values per keyboard shortcut. There's a lot here to memorize unfortunately.
 
 ## Additional reading
 
@@ -43,7 +43,7 @@ Start reading up on CSS and modify this html and css file and experiment after t
 
 I suggest reading through at least the long ass first page here:
 
-http://learn.shayhowe.com/html-css/building-your-first-web-page/
+<http://learn.shayhowe.com/html-css/building-your-first-web-page/>
 
 # Neat shit to think about
 
