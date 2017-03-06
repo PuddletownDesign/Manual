@@ -1,0 +1,124 @@
+html {
+
+}
+
+body {
+
+}
+
+nav {
+	background-color: #000;
+	padding: 1em 0 0.5em;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 10%;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	background-color: #555;
+	padding: 0.8em 1em;
+}
+
+section {
+	text-align: center;
+	padding: 6em 0;
+}
+
+
+section blockquote {
+	text-align: left;
+	font-size: 1.4em;
+}
+
+section blockquote,
+section figure {
+	display: inline-block;
+	width: 40%;
+	padding: 0 2%;
+	vertical-align: middle;
+}
+
+section blockquote p {
+	font-style: italic;
+}
+
+section blockquote cite {
+
+}
+
+section figure {
+
+}
+
+section figure img {
+
+}
+
+section figure figcaption {
+	font-size: 0.1em;
+	font-style: italic;
+}
+
+footer {
+	background-color: #4a0064;
+	color: #fff;
+	text-align: center;
+	padding: 3em 0;
+}
+
+#shaping {
+	background-color: #18b7ef;
+}
+#shaping .reply {
+}
+
+#shaping .reply a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #000;
+}
+
+#fitting {
+	background-color: #6c0037;
+	color: #fff;
+}
+
+#contact {
+	background-color: #7d6600;
+}
+
+#contact form {
+	text-align: left;
+	width: 30em;
+	margin: 0 auto;
+}
+
+#contact form label {
+	color: #fff;
+}
+
+#contact form input {
+
+}
+
+#contact form textarea {
+
+}
+
+#contact  form button {
+ 	background-color: #fff;
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 15em;
+	display: block;
+	margin: 0 auto;
+}
