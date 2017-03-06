@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 /* You're on you're own here... */
 html {
   text-align: center;
   background-color: grey;
+=======
+html {
+  background-color: grey;
+  margin: 0;
+  padding: 0;
+>>>>>>> a17a7045dbd2e095bb87aca88541d54a599baee4
 }
 
 body {
   background-color: white;
+<<<<<<< HEAD
   margin: 1em auto;
   padding: 1em;
   width: 75em;
@@ -32,13 +40,58 @@ blockquote {
   color: white;
   padding: 1em;
 }
+=======
+  margin: 1em;
+  padding-top: 1em;
+  text-align: center;
+}
+article {
+
+}
+h1 {
+  background-color: purple;
+  color: white;
+  padding: 1em 2em;
+  margin: 1em;
+}
+
+h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+
+}
+
+ul {
+
+}
+
+ol {
+
+}
+
+li {
+
+}
+
+blockquote {
+
+}
+
+>>>>>>> a17a7045dbd2e095bb87aca88541d54a599baee4
 blockquote cite {
 
 }
 
 p {
+<<<<<<< HEAD
   margin: 0 auto;
   width: 23em;
   border: 1px;
+=======
+  border-bottom: 1px solid #666;
+>>>>>>> a17a7045dbd2e095bb87aca88541d54a599baee4
   padding-bottom: 1em;
 }
