@@ -36,6 +36,12 @@ Packages that you're not using take extra time to load and make the editor slowe
 16. Wrap Guide
 17. Status bar package
 
+**Here's a quick terminal command to disable these packages**
+
+```
+$ apm disable autoflow metrics exception-reporting background-tips language-c language-clojure language-csharp language-go language-java language-less language-make language-php language-objective-c language-perl language-python language-ruby language-ruby-on-rails language-toml language-xml status-bar welcome wrap-guide
+```
+
 ## Initial custom keybindings
 
 ```
@@ -67,9 +73,8 @@ Packages that you're not using take extra time to load and make the editor slowe
 Here's all of them in one command
 
 ```
-$ apm install no-title-bar atom-wrap-in-tag color-picker pigments emmet emmet-snippets-compatibility docblockr highlight-selected html-entitize linter linter-htmlhint linter-markdown linter-csslint linter-scss-lint
+$ apm install todo-show language-sass no-title-bar atom-wrap-in-tag color-picker pigments file-icons git-plus merge-conflicts emmet emmet-snippets-compatibility docblockr highlight-selected html-entitize linter linter-htmlhint linter-markdown linter-csslint linter-scss-lint linter-jshint minimap goto-definition
 ```
-
 
 ## Useful keyboard shortcuts
 
