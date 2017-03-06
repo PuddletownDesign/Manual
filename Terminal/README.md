@@ -2,6 +2,10 @@
 
 In the modern world most development is done through the terminal. I'm not 100% sure why. People could easily create apps with interfaces to do all of this. My guess is, that once you get used to it, it's actually easier.
 
+Terminal is a different way to use your computer. Instead of pointing and clicking you type what you want. On mac you have a built in terminal located in `/Applications/Utilities/Terminal.app`. *look up [file paths](), if you don't know what this means. ex . (Folder/Folder/file.txt)*
+
+We won't be using the built in mac terminal, we will start with a better more improved one.
+
 ## iTerm2
 
 Download and install iTerm2 here.
@@ -12,21 +16,21 @@ Download and install my default settings here.
 
 ### Install iterm2 custom settings
 
-
+I'll upload custom settings shortly...
 
 ## Shell prompt
 
-The shell prompt is the line of text right before the blinking cursor. It's waiting for input.
+The shell prompt is the line of text right before the blinking cursor.
 
-`$` *indicates the shell prompt in writing* - **If you copy and paste, DO NOT copy the dollar sign from the examples. Only the text after it.**
+`$` *indicates the shell prompt in writing* - **If you copy and paste, DO NOT copy the dollar sign ($) from the examples. Only the text after it.**
 
 ## Shells and configuration
 
-The shell is the program that interprets your input. The default shell is usually configured to bash. We want to change the default shell to zsh.
+The shell is the program that interprets your input. The default shell is normally configured to bash. We want to change the default shell to zsh.
 
 ### zsh (Z shell)
 
-Zsh is more modern and a lot more extensible. We'll still use bash sometimes, but not for general purposes.
+Zsh is more modern and a lot more extensible. We'll still use bash at times, however not for general purposes.
 
 To check your current shell:
 
