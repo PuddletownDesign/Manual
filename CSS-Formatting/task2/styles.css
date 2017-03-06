@@ -1,11 +1,46 @@
+<<<<<<< HEAD
+/* You're on you're own here... */
+html {
+  text-align: center;
+  background-color: grey;
+=======
 html {
   background-color: grey;
   margin: 0;
   padding: 0;
+>>>>>>> a17a7045dbd2e095bb87aca88541d54a599baee4
 }
 
 body {
   background-color: white;
+<<<<<<< HEAD
+  margin: 1em auto;
+  padding: 1em;
+  width: 75em;
+}
+
+ol, ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+h1 {
+  background-color: purple;
+  color:  white;
+  padding: 1em;
+}
+
+h2 {
+  border-top: 1px solid grey;
+  padding-top: 1em;
+}
+
+blockquote {
+  background-color: black;
+  color: white;
+  padding: 1em;
+}
+=======
   margin: 1em;
   padding-top: 1em;
   text-align: center;
@@ -45,11 +80,18 @@ blockquote {
 
 }
 
+>>>>>>> a17a7045dbd2e095bb87aca88541d54a599baee4
 blockquote cite {
 
 }
 
 p {
+<<<<<<< HEAD
+  margin: 0 auto;
+  width: 23em;
+  border: 1px;
+=======
   border-bottom: 1px solid #666;
+>>>>>>> a17a7045dbd2e095bb87aca88541d54a599baee4
   padding-bottom: 1em;
 }
