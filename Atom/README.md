@@ -10,7 +10,7 @@
 
 ### Settings > Editior
 
-
+1. Set tabs to 4 spaces
 
 ### Settings > packages
 
@@ -49,7 +49,7 @@ Packages that you're not using take extra time to load and make the editor slowe
 ## Useful packages
 
 *   No Title Bar - `apm install no-title-bar`
-*   Wrap in tag - `apm-atom-wrap-in-tag`
+*   Wrap in tag - `apm install atom-wrap-in-tag`
 *   Color Picker - `apm install color-picker`
 *   Pigments - `apm install pigments`
 *   Git Plus - `apm install git-plus`
@@ -63,6 +63,12 @@ Packages that you're not using take extra time to load and make the editor slowe
 *   Linter - `apm install linter`
 *   Linter HTML - `apm install linter-htmlhint`
 *   Linter Markdown - `apm install linter-markdown`
+
+Here's all of them in one command
+
+```
+$ apm install no-title-bar atom-wrap-in-tag color-picker pigments emmet emmet-snippets-compatibility docblockr highlight-selected html-entitize linter linter-htmlhint linter-markdown linter-csslint linter-scss-lint
+```
 
 
 ## Useful keyboard shortcuts
