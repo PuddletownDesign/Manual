@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet">
+    <title>Tabling</title>
+    <style type="text/css">
+        td,
+        /*why are td and th listed together here with conflicting values?*/
+
+        th {
+            padding: 1em;
+            background-color: #9f8116;
+            color: rgb(49, 19, 59);
+        }
+
+        th {
+            background-color: rgb(49, 19, 59);
+            color: #9f8116;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Lifeform</th>
+                <th scope="col">Kingdom</th>
+                <th scope="col">Phylum</th>
+                <th scope="col">Class</th>
+                <th scope="col"> Order</th>
+                <th scope="col">Family</th>
+                <th scope="col">Genus</th>
+                <th scope="col">Species</th>
+                <th scope="col">Subspecies</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Mini Elephant</th>
+                <td rowspan="2">Animalia</td>
+                <td rowspan="2">Chordata</td>
+                <td>Mammalia</td>
+                <td>Proboscidea</td>
+                <td>Elephantidae</td>
+                <td><em>Elephas</em></td>
+                <td><em>E. maximus</em></td>
+                <td><em><strong>E. m. borneensis</strong></em></td>
+            </tr>
+            <tr>
+                <th scope="row">Salmon</th>
+                <td>Actinopterygii</td>
+                <td>Salmoniformes</td>
+                <td>Salmonidae</td>
+                <td>Oncorhynchus</td>
+                <td colspan="2"><em>O. kisutch</em></td>
+
+            </tr>
+            <tr>
+                <th scope="row">Peyote</th>
+                <td>Plantae</td>
+                <td>Angiosperms</td>
+                <td>Eudicots</td>
+                <td>Core eudicots</td>
+                <td>Caryophyllales</td>
+                <td>Cactaceae</td>
+                <td><em>Lophophora diffusa</em></td>
+                <td><em><strong>Lophophora williamsii</strong></em></td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
