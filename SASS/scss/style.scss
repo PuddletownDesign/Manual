@@ -1,0 +1,87 @@
+@import: 'reset';
+@import: 'typography'
+
+$blue: rgba(30, 62, 233, .39);
+$black: rgba(0, 0, 0, 1);
+$yellow: rgba(239, 241, 170, .5);
+
+
+
+html {
+    background-color: rgb(75, 75, 75);
+}
+
+
+table {
+    background: transparent url('stars.jpg') center center no-repeat;
+    background-size: 160%;
+    text-align: center;
+
+    th {
+        background-color: $black;
+        color: rgb(251, 251, 251);
+        padding: 3em;
+    }
+
+    td {
+        background-color: rgba(19, 19, 19, .5);
+        padding: 2em;
+        color: rgb(247, 247, 241);
+    }
+
+    tr:nth-child(1) td:nth-child(3) {
+        background-color: $blue;
+    }
+
+    tr:nth-child(1) td:nth-child(4) {
+        background-color: $blue;
+    }
+
+    tr:nth-child(2) td:nth-child(3) {
+        background-color: rgba(144, 160, 242, .54);
+    }
+
+    tr:nth-child(2) td:nth-child(4) {
+        background-color: rgba(109, 123, 249, .66);
+    }
+
+    tr:nth-child(3) td:nth-child(3) {
+        background-color: rgba(236, 238, 245, .51);
+    }
+
+    tr:nth-child(3) td:nth-child(4) {
+        background-color: rgba(144, 160, 242, .54);
+    }
+
+    tr:nth-child(4) td:nth-child(3) {
+        background-color: $yellow;
+    }
+
+    tr:nth-child(4) td:nth-child(4) {
+        background-color: rgba(236, 238, 245, .51);
+    }
+
+    tr:nth-child(5) td:nth-child(3) {
+        background-color: rgba(238, 244, 135, .52);
+    }
+
+    tr:nth-child(5) td:nth-child(4) {
+        background-color: $yellow;
+    }
+
+    tr:nth-child(6) td:nth-child(3) {
+        background-color: rgba(245, 203, 94, .55);
+    }
+
+    tr:nth-child(6) td:nth-child(4) {
+        background-color: rgba(246, 194, 125, .58);
+    }
+
+    tr:nth-child(7) td:nth-child(3) {
+        background-color: rgba(245, 103, 94, .55);
+    }
+
+    tr:nth-child(7) td:nth-child(4) {
+        background-color: rgba(245, 139, 94, .55);
+    }
+}
