@@ -18,6 +18,10 @@
 
 Packages that you're not using take extra time to load and make the editor slower.
 
+```
+$ apm disable autoflow metrics exception-reporting background-tips language-c language-clojure language-csharp language-go language-java language-less language-make language-php language-objective-c language-perl language-python language-ruby language-ruby-on-rails language-toml language-xml status-bar welcome wrap-guide
+```
+
 1.  autoflow
 2.  background tips
 3.  Language C
@@ -36,23 +40,12 @@ Packages that you're not using take extra time to load and make the editor slowe
 16. Wrap Guide
 17. Status bar package
 
-**Here's a quick terminal command to disable these packages**
-
-```
-$ apm disable autoflow metrics exception-reporting background-tips language-c language-clojure language-csharp language-go language-java language-less language-make language-php language-objective-c language-perl language-python language-ruby language-ruby-on-rails language-toml language-xml status-bar welcome wrap-guide
-```
-
-## Initial custom keybindings
-
-```
-'.editor':
-  'alt-cmd-w': 'editor:toggle-soft-wrap'
-  'alt-cmd-e': 'html-entitize:encode'
-  'alt-cmd-d': 'html-entitize:decode'
-  'cmd-~': 'wrap-in-tag:wrap'
-```
 
 ## Useful packages
+
+```
+$ apm install todo-show language-sass no-title-bar atom-wrap-in-tag color-picker pigments file-icons git-plus merge-conflicts emmet emmet-snippets-compatibility docblockr highlight-selected html-entitize linter linter-htmlhint linter-markdown linter-csslint linter-scss-lint linter-jshint minimap goto-definition
+```
 
 *   No Title Bar - `apm install no-title-bar`
 *   Wrap in tag - `apm install atom-wrap-in-tag`
@@ -70,11 +63,23 @@ $ apm disable autoflow metrics exception-reporting background-tips language-c la
 *   Linter HTML - `apm install linter-htmlhint`
 *   Linter Markdown - `apm install linter-markdown`
 
-Here's all of them in one command
+
+## Initial custom keybindings
 
 ```
-$ apm install todo-show language-sass no-title-bar atom-wrap-in-tag color-picker pigments file-icons git-plus merge-conflicts emmet emmet-snippets-compatibility docblockr highlight-selected html-entitize linter linter-htmlhint linter-markdown linter-csslint linter-scss-lint linter-jshint minimap goto-definition
+'.editor':
+  'alt-cmd-w': 'editor:toggle-soft-wrap'
+  'alt-cmd-e': 'html-entitize:encode'
+  'alt-cmd-d': 'html-entitize:decode'
+  'cmd-~': 'wrap-in-tag:wrap'
 ```
+
+## Modifying and customizing atom packages
+
+1.  Create a fork of the package on your repo
+2.  go to the `.atom/packages/` directory and run `git clone <package name>` to clone the fork into that folder.
+3.  If it is a core package, rename the package in all places in the script
+4.  if it is not a core package simply disable or uninstall the old one.
 
 ## Useful keyboard shortcuts
 
@@ -98,7 +103,12 @@ $ apm install todo-show language-sass no-title-bar atom-wrap-in-tag color-picker
 *   `command + number` - Switch to that tab
 *   `a`, `m`, `delete`, `shift + a` - when in treeview to *add, move, delete files, new folder*
 *   `cmd + g` - Move to a specific line (and column 30:45)
+*   `opt+ up|down` *on a number* - increments a number higher|lower
+*   `opt+command [|]` - folds or unfolds code indentation
 
+### Panes
+
+*   `cmd + k` then `Cmd+Up/Down/Left/Right` - splits a new pane in that direction
 
 ### Searching
 
@@ -112,3 +122,11 @@ $ apm install todo-show language-sass no-title-bar atom-wrap-in-tag color-picker
 *   `cmd + F2` - Bookmark line
 *   `F2` - Jump to next Bookmark. *`+Shift` for previous bookmark*
 *   `ctrl + f2` - see/ search all bookmarks in file
+
+### Github
+
+*   `Alt+G` `O` - Open file on GitHub
+*   `Alt+G` `B` - Open Blame view of file on GitHub
+*   `Alt+G` `H` - Open History view of file on GitHub
+*   `Alt+G` `C` - Copy the URL of the current file on GitHub to the clipboard
+*   `Alt+G` `R` - Branch compare on GitHub
