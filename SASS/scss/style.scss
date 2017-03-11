@@ -1,16 +1,12 @@
 @import 'reset';
 @import 'typography';
-
 $blue: rgba(30, 62, 233, .39);
 $black: rgba(0, 0, 0, 1);
 $yellow: rgba(239, 241, 170, .5);
 
-
-
 html {
     background-color: rgb(75, 75, 75);
 }
-
 
 table {
     background: transparent url('stars.jpg') center center no-repeat;
@@ -29,36 +25,44 @@ table {
         color: rgb(247, 247, 241);
     }
 
-    tr:nth-child(1) td:nth-child(3) {
-        background-color: $blue;
+    tr:nth-child(1) {
+        td:nth-child(3) {
+            background-color: $blue;
+        }
+
+        td:nth-child(4) {
+            background-color: $blue;
+        }
     }
 
-    tr:nth-child(1) td:nth-child(4) {
-        background-color: $blue;
+    tr:nth-child(2) {
+        td:nth-child(3) {
+            background-color: rgba(144, 160, 242, .54);
+        }
+
+        td:nth-child(4) {
+            background-color: rgba(109, 123, 249, .66);
+        }
     }
 
-    tr:nth-child(2) td:nth-child(3) {
-        background-color: rgba(144, 160, 242, .54);
+    tr:nth-child(3) {
+        td:nth-child(3) {
+            background-color: rgba(236, 238, 245, .51);
+        }
+
+        td:nth-child(4) {
+            background-color: rgba(144, 160, 242, .54);
+        }
     }
 
-    tr:nth-child(2) td:nth-child(4) {
-        background-color: rgba(109, 123, 249, .66);
-    }
-
-    tr:nth-child(3) td:nth-child(3) {
-        background-color: rgba(236, 238, 245, .51);
-    }
-
-    tr:nth-child(3) td:nth-child(4) {
-        background-color: rgba(144, 160, 242, .54);
-    }
-
-    tr:nth-child(4) td:nth-child(3) {
-        background-color: $yellow;
-    }
-
-    tr:nth-child(4) td:nth-child(4) {
-        background-color: rgba(236, 238, 245, .51);
+    tr:nth-child(4) {
+        td:nth-child(3) {
+            background-color: $yellow;
+        }
+        
+        td:nth-child(4) {
+            background-color: rgba(236, 238, 245, .51);
+        }
     }
 
     tr:nth-child(5) td:nth-child(3) {
