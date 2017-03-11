@@ -1,0 +1,11 @@
+{
+  "name": "K",
+  "version": "1.0.0",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "latest",
+    "gulp-util": "latest"
+  }
+}
