@@ -1,5 +1,7 @@
 # GIT
 
+<!-- need to update with -->
+
 Git is the flow of a project. It watches everything that changes. You can revert back to any point of changes or manage a large team of programmers and merge all their work together. It can be very difficult to understand some of the concepts, stick with it. It's the underlying foundation of how you will work.
 
 ## Reference
@@ -7,6 +9,12 @@ Git is the flow of a project. It watches everything that changes. You can revert
 This is the best place to start. Work through the examples. *Ignore anything mentioning SVN, you can just skip over it.*
 
 <https://www.atlassian.com/git>
+
+
+## Oh my zsh Shortcuts
+Once you learn the commands, use these shortcuts:
+<https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet#git>
+
 
 ## Notation
  \* =*zsh shortcut*
