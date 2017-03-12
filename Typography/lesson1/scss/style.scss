@@ -1,0 +1,81 @@
+$byellow: rgba(240, 221, 54, 1);
+$brown: rgb(79, 49, 5);
+
+@import 'reset';
+@import 'typography';
+
+body {
+    padding: 2em;
+    text-align: center;
+    background-color: rgb(7, 52, 13);
+}
+
+.radio-buttons {
+    text-align: left;
+    padding: 2em;
+    margin: 1em;
+    background-image: url('wood-grain.jpg');
+    color: $byellow;
+
+    h1 {
+        text-align: center;
+    }
+    fieldset {
+        width: 20%;
+        margin: 0 auto;
+    }
+    input {
+        width: 1em;
+    }
+    label {
+        width: 6em;
+    }
+    button {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+}
+
+.login {
+    padding: 2em;
+    background-color: rgb(175, 142, 24);
+    margin: 1em;
+}
+
+.adventure {
+    padding: 2em;
+    margin: 1em;
+    background-color: $brown;
+    color: $byellow;
+    text-align: left;
+    h2 {
+        color: $byellow;
+        text-align: center;
+    }
+    fieldset {
+        width: 50%;
+        margin: 2em auto 0;
+        padding-left: 5em;
+        input {
+            width: 1em;
+        }
+        label {
+            width: 8em;
+        }
+    }
+
+}
+
+.select-box {
+    background-color: rgb(175, 142, 24);
+    color: $brown;
+
+    h2 {
+        margin: 1em 1em 0;
+        padding: 2em 2em 1em;
+    }
+    button {
+        margin: 1em;
+        width: 50%;
+    }
+}
