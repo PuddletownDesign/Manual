@@ -14,3 +14,5 @@
 8.  [CSS-Formatting](https://github.com/RachelFrank/Manual/tree/master/CSS-Formatting)
 9.  [CSS-Dev-Tools](https://github.com/RachelFrank/Manual/tree/master/CSS-Dev-Tools)
 10. [CSS-Layout](https://github.com/RachelFrank/Manual/tree/master/CSS-Layout)
+11. [SASS/Stylus](https://github.com/RachelFrank/Manual/tree/master/SASS)
+12. [Typography](https://github.com/RachelFrank/Manual/tree/master/Typography)
