@@ -83,6 +83,10 @@ $ apm install todo-show language-sass no-title-bar atom-wrap-in-tag color-picker
 
 ## Useful keyboard shortcuts
 
+* `command + option + w` toggles line wrapping
+* `command + option + e` encodes selected special html characters
+* `command + option + d` decodes selected special html characters
+
 ### Packages
 
 `ctrl + shift + m` - Render markdown preview
@@ -92,9 +96,9 @@ $ apm install todo-show language-sass no-title-bar atom-wrap-in-tag color-picker
 
 *This still has some snags, make sure to do it only on the first column until it gets fixed*
 
-1.  `cmd + shift + l` - selects multiple lines (on selected text), great for wrapping multiple lines at
-2.  `cmd + ~` - wraps the lines in tags
-3.  `ctrl + shift (up|down)` - click then select multiple lines at once. (*useful for indents*)
+*  `cmd + shift + l` - selects multiple lines (on selected text), great for wrapping multiple lines at once
+*  `cmd + ~` - wraps the lines in tags
+*  `ctrl + shift (up|down)` - click then select multiple lines at once. (*useful for indents*)
 
 ### Movement
 
