@@ -48,9 +48,11 @@ $ chsh -s /usr/bin/zsh
 
 Oh my zsh is a custom configuration to the zsh shell.
 
-Read about oh my zsh here:
+#### Read about oh my zsh here:
 
 <https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH>
+
+[oh-my-zsh cheatsheet](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)
 
 Install oh my zsh by entering into terminal:
 
