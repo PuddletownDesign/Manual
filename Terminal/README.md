@@ -187,7 +187,7 @@ force recursive removes directory
 
 ### The Grepping and the Piping
 `grep`
-	ex. `grep -rachel <filename>`
+	ex. `grep -textsearch <filename>`
 	sort through long files or dir for specific word or character
 
 `cat`
@@ -199,3 +199,24 @@ force recursive removes directory
         `find` finds `~/` in location `"filename.txt"` filename
 or...
 `“*...*”` *wild card* finds a series of characters within other characters
+
+## SSH to a remote computer
+
+`$ ssh name@ipaddress`
+
+### Setting up ssh keys
+
+<https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2>
+
+## Transfer a file with SCP
+
+**local machine**
+
+`$ scp path/file.txt username@hostname:/var/www/file.txt`
+
+```
+-P for portnumber
+-r copy whole directories
+```
+
+**local file and destination file can also be reversed to download**
