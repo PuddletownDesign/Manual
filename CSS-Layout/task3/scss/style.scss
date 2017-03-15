@@ -1,0 +1,127 @@
+@import 'reset';
+@import 'typography';
+$black: #000;
+$white: #fff;
+$brown: #8D5F07;
+$blue: #06206E;
+* {
+    // box-shadow: 0 0 1px #000;
+}
+
+body {
+    font-size: 115%;
+}
+
+nav {
+    background-color: $black;
+    ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                color: $white;
+                padding: 2em;
+                display: block;
+                border-right: 1px solid $white;
+            }
+        }
+    }
+}
+
+section {
+    vertical-align: middle;
+    text-align: center;
+    padding: 15em 0;
+
+    table,
+    form,
+    div {
+    	display: inline-block;
+    	width: 40%;
+    	padding: 0 2.5%;
+    	vertical-align: top;
+
+    }
+
+    div {
+
+
+        h2 {
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: -0.02em;
+        }
+
+        p {}
+    }
+}
+
+#form {
+    background-color: $brown;
+    display: inline-block;
+
+    form {
+        background-color: #8C791A;
+        display: inline-block;
+        border-radius: 1.4em;
+        padding: 1.5em 0 1em;
+        margin-top: 3em;
+
+        input {
+            width: 55%;
+            display: inline-block;
+        }
+
+        button {
+            background-color: #0F7F12;
+            width: 35%;
+            display: inline-block;
+            color: $white;
+            font-weight: bold;
+            font-size: 110%;
+        }
+
+        br,
+        label {
+            display: none;
+        }
+    }
+    div {
+        text-align: left;
+
+    }
+}
+
+#table {
+    background-color: $blue;
+    color: $white;
+
+    table {
+        border-spacing: 1;
+
+        td,
+        th {
+            padding: 1em;
+        }
+
+        thead {
+            background-color: #CCCCCC;
+            color: $blue;
+        }
+
+        tbody {
+            background-color: #fff;
+            color: $black;
+        }
+    }
+
+    div {
+        text-align: center;
+        margin: 2em 0 0 4em;
+        width: 35%;
+    }
+}
