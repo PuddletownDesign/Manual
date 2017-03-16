@@ -1,81 +1,45 @@
-$byellow: rgba(240, 221, 54, 1);
-$brown: rgb(79, 49, 5);
+$yellow: #f7df30;
+$brown: #46342d;
+$white: #ebe5ce;
+@import 'reset'; // @import 'typography';
 
-@import 'reset';
-@import 'typography';
+body {}
 
-body {
-    padding: 2em;
-    text-align: center;
-    background-color: rgb(7, 52, 13);
-}
+.redwoods {
+	background-color: $brown;
+	color: $yellow;
+	font: 8.5vw/11vw 'Baloo Bhaina', cursive;
+	text-align: center;
+	text-transform: uppercase;
+	clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+	margin: 1em auto;
+	width: 95%;
 
-.radio-buttons {
-    text-align: left;
-    padding: 2em;
-    margin: 1em;
-    background-image: url('wood-grain.jpg');
-    color: $byellow;
+	.title {
+		padding-top: .7em;
+		letter-spacing: .08em;
+		font-size: .8em;
+	}
 
-    h1 {
-        text-align: center;
-    }
-    fieldset {
-        width: 20%;
-        margin: 0 auto;
-    }
-    input {
-        width: 1em;
-    }
-    label {
-        width: 6em;
-    }
-    button {
-        font-size: 1.2em;
-        font-weight: bold;
-    }
-}
+	.forest {
+		text-transform: none;
+		font-weight: bold;
+		color: $white;
+		font-size: 1.2em;
+		font-family: 'Pacifico', cursive;
+	}
 
-.login {
-    padding: 2em;
-    background-color: rgb(175, 142, 24);
-    margin: 1em;
-}
+	.campground {
+		line-height: 2.3em;
+		font-size: .8em;
+		letter-spacing: .14em;
+	}
 
-.adventure {
-    padding: 2em;
-    margin: 1em;
-    background-color: $brown;
-    color: $byellow;
-    text-align: left;
-    h2 {
-        color: $byellow;
-        text-align: center;
-    }
-    fieldset {
-        width: 50%;
-        margin: 2em auto 0;
-        padding-left: 5em;
-        input {
-            width: 1em;
-        }
-        label {
-            width: 8em;
-        }
-    }
-
-}
-
-.select-box {
-    background-color: rgb(175, 142, 24);
-    color: $brown;
-
-    h2 {
-        margin: 1em 1em 0;
-        padding: 2em 2em 1em;
-    }
-    button {
-        margin: 1em;
-        width: 50%;
-    }
+	.sub {
+		background-color: $white;
+		color: $brown;
+		padding: .5em 0 .2em;
+		font-size: .8em;
+		text-transform: none;
+	}
 }
