@@ -1,11 +1,14 @@
-$yellow: #f7df30;
-$brown: #46342d;
-$white: #ebe5ce;
+
 @import 'reset'; // @import 'typography';
 
 body {}
 
 .redwoods {
+	$yellow: #f7df30;
+	$brown: #46342d;
+	$white: #ebe5ce;
+	$black: #000;
+
 	background-color: $brown;
 	color: $yellow;
 	font: 8.5vw/11vw 'Baloo Bhaina', cursive;
@@ -14,6 +17,8 @@ body {}
 	clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
 	margin: 1em auto;
 	width: 95%;
+	text-shadow: .02em .02em .01em $black;
+
 
 	.title {
 		padding-top: .7em;
