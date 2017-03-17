@@ -21,8 +21,8 @@
 *   Progressive-Responsive
 *   UI-UX
 *   Portfolio
-*   Javascript-Dev-Tools
 *   Javascript
+*   Javascript-Dev-Tools
 *   jQuery
 *   Gulp
 *   Javascript-Advanced

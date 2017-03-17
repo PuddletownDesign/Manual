@@ -167,6 +167,7 @@ textarea {
   width: 98%;
   padding: 1%; }
 
+<<<<<<< HEAD
 .wisdom {
   text-align: center;
   background-color: #BC6B25;
@@ -184,6 +185,10 @@ textarea {
     padding-bottom: 10em;
     background-color: #9E8272;
     clip-path: polygon(51% 60%, 0 0, 100% 0); }
+=======
+section {
+  margin-bottom: 1em; }
+>>>>>>> 66173963e33edd628a03d3ce8a3d320390092949
 
 .redwoods {
   background-color: #46342d;
