@@ -1,16 +1,55 @@
 @import 'reset'; // @import 'typography';
 
 body {}
-section { margin-bottom: 1em};
 
+section {
+	margin-bottom: 1em;
+};
 
+.cat {
+	$grey: #292a39;
+	$moon: #d3d689;
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	background: $grey url('img/cat.png') top center;
+	background-size: 100%;
+	padding-top: 87vw;
+
+	div {
+		text-align: center;
+		background-color: $grey;
+		color: darken($moon, 40%);
+		font-size: 10vw;
+		line-height: 12vw;
+		padding-top: .5em;
+
+		span {
+			display: block;
+			font-size: 15vw;
+
+			+span {
+				font-size: 7.7vw;
+				color: lighten($moon, 10%);
+
+				+span {
+					font-size: 11.4vw;
+					color: darken($moon, 5%);
+
+					+span {
+						font-size: 10.9vw;
+						color: darken($moon, 30%);
+					}
+				}
+			}
+		}
+	}
+}
 
 .redwoods {
 	$yellow: #f7df30;
 	$brown: #46342d;
 	$white: #ebe5ce;
 	$black: #000;
-
 	background-color: $brown;
 	color: $yellow;
 	font: 8.5vw/11vw 'Baloo Bhaina', cursive;
@@ -20,7 +59,6 @@ section { margin-bottom: 1em};
 	margin: 1em auto;
 	width: 95%;
 	text-shadow: .02em .02em .01em $black;
-
 
 	.title {
 		padding-top: .7em;
