@@ -1,5 +1,45 @@
-$byellow: rgba(240, 221, 54, 1);
-$brown: rgb(79, 49, 5);
-
+$yellow: #f7df30;
+$brown: #46342d;
+$white: #ebe5ce;
 @import 'reset';
-@import 'typography';
+
+body {}
+
+.redwoods {
+	background-color: $brown;
+	color: $yellow;
+	font: 8.5vw/11vw 'Baloo Bhaina', cursive;
+	text-align: center;
+	text-transform: uppercase;
+	clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+	margin: 1em auto;
+	width: 95%;
+
+	.title {
+		padding-top: .7em;
+		letter-spacing: .08em;
+		font-size: .8em;
+	}
+
+	.forest {
+		text-transform: none;
+		font-weight: bold;
+		color: $white;
+		font-size: 1.2em;
+		font-family: 'Pacifico', cursive;
+	}
+
+	.campground {
+		line-height: 2.3em;
+		font-size: .8em;
+		letter-spacing: .14em;
+	}
+
+	.sub {
+		background-color: $white;
+		color: $brown;
+		padding: .5em 0 .2em;
+		font-size: .8em;
+		text-transform: none;
+	}
+}
