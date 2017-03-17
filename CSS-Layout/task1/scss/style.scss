@@ -1,0 +1,69 @@
+@import 'reset';
+@import 'typography';
+
+* {
+    // box-shadow: 0 0 1px #fff;
+}
+
+body {
+    font-size: 1.2em;
+}
+
+#about {
+    text-align: center;
+    background-color: #874676;
+    padding: 3em 0;
+
+    h1 {
+        font-weight: bold;
+    }
+
+    p {
+        font-style: italic;
+    }
+}
+
+#why {
+    text-align: center;
+    padding: 2em;
+    background-color: #222222;
+
+    blockquote {
+        padding: 4em 1em;
+        font-size: 1.6em;
+        max-width: 30em;
+        margin: 0 auto;
+        color: #fff;
+
+        p {}
+    }
+
+}
+
+#contact {
+    form {
+        max-width: 30em;
+        margin: 0 auto;
+
+        button {
+            display: block;
+            max-width: 15em;
+            margin: 0 auto;
+            font-size: 1.2em;
+            font-weight: bold;
+            max-width: 12em;
+            padding: 1em;
+        }
+    }
+    padding: 2em 0;
+    background-color: #144323;
+    color: #fff;
+
+}
+
+footer {
+    text-align: center;
+    padding: 2em;
+    color: #fff;
+    background-color: #288737;
+}
