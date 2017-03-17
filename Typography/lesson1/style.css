@@ -167,6 +167,24 @@ textarea {
   width: 98%;
   padding: 1%; }
 
+.wisdom {
+  text-align: center;
+  background-color: #BC6B25;
+  color: #221010;
+  padding: 5em 10em 10em;
+  font-family: 'Averia Sans Libre', cursive; }
+  .wisdom h1 {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-family: 'Monoton', cursive;
+    color: #9D221C;
+    font-size: 4em; }
+  .wisdom p {
+    padding-top: 1em;
+    padding-bottom: 10em;
+    background-color: #9E8272;
+    clip-path: polygon(51% 60%, 0 0, 100% 0); }
+
 .redwoods {
   background-color: #46342d;
   color: #f7df30;

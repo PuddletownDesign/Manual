@@ -2,7 +2,32 @@
 
 body {}
 
+.wisdom {
+	$mustard: #BC6B25;
+	$textbrown: #221010;
+	$red: #9D221C;
 
+	text-align: center;
+	background-color: $mustard;
+	color: $textbrown;
+	padding: 5em 10em 10em;
+	font-family: 'Averia Sans Libre', cursive;
+
+	h1 {
+		padding-top: .5em;
+		padding-bottom: .5em;
+		font-family: 'Monoton', cursive;
+		color: $red;
+		font-size: 4em;
+	}
+	p {
+		padding-top: 1em;
+		padding-bottom: 10em;
+		background-color: #9E8272;
+		clip-path: polygon(51% 60%, 0 0, 100% 0);
+
+	}
+}
 
 
 .redwoods {
