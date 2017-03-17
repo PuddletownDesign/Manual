@@ -167,6 +167,9 @@ textarea {
   width: 98%;
   padding: 1%; }
 
+section {
+  margin-top: 1em; }
+
 .redwoods {
   background-color: #46342d;
   color: #f7df30;
