@@ -16,9 +16,9 @@ body {}
 	width: 95%;
 
 	.title {
-		padding-top: 0.7em;
-		letter-spacing: 0.08em;
-		font-size: 0.8em;
+		padding-top: .7em;
+		letter-spacing: .08em;
+		font-size: .8em;
 	}
 
 	.forest {
@@ -31,15 +31,15 @@ body {}
 
 	.campground {
 		line-height: 2.3em;
-		font-size: 0.8em;
-		letter-spacing: 0.14em;
+		font-size: .8em;
+		letter-spacing: .14em;
 	}
 
 	.sub {
 		background-color: $white;
 		color: $brown;
-		padding: 0.5em 0 0.2em;
-		font-size: 0.8em;
+		padding: .5em 0 .2em;
+		font-size: .8em;
 		text-transform: none;
 	}
 }
