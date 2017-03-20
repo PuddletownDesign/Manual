@@ -52,8 +52,6 @@ Oh my zsh is a custom configuration to the zsh shell.
 
 <https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH>
 
-[oh-my-zsh cheatsheet](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)
-
 Install oh my zsh by entering into terminal:
 
 ```
@@ -63,6 +61,50 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/m
 Zsh is configured through the .zshrc file
 
 `.zshrc` is the zsh config file. to edit type `zshconfig`
+
+
+## Default `.zsrch` file
+
+```shell
+export PATH=$HOME/bin:/usr/local/bin:/Users/Brent/Files/Sites/bin:$PATH
+export VAGRANT_HOME=/Users/Brent/Documents/Vagrant/vagrant.d
+
+# Path to your oh-my-zsh installation.
+export ZSH=/Users/Brent/Documents/Terminal/oh-my-zsh
+
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="puddletown"
+
+plugins=(git bundler osx textmate)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# Aliases
+alias zshconfig='atom ~/.zshrc'
+alias ohmyzsh='atom ~/.oh-my-zsh'
+alias vm='cd /Users/Brent/Files/Sites/debian/vagrant'
+
+# Misc commands
+alias l='ls -l'
+alias a='atom'
+alias reload='. ~/.zshrc'
+alias wds='webpack-dev-server --progress --colors'
+alias update='brew update && npm update -g && apm update && upgrade_oh_my_zsh'
+```
+
+## Oh My ZSH tips and tricks
+
+[oh-my-zsh cheatsheet](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)
+
+
+1.  You don't have to type `cd` to change directories
+2.  Just type `..` to go back 1 directory, `...` to go back 2 etc.
+3.  Type `reload` to reload the `.zshrc` file
+4.  `update` updates Atom/Node/ZSH/Brew in one command
 
 ## Installing mac terminal package manager
 
@@ -93,7 +135,12 @@ read the manual pages. Hit `q` to escape the manual pages
 
 *These things look fucked up at first, but it's important to learn how to read them. Keep looking at them with any about commands*
 
-### ls
+### `d`
+
+`d` - Shows the stack of last used directories
+`cd +n` - Goes to that directory in the stack
+
+### `ls`
 
 `ls`= list
 	lists directories
@@ -113,7 +160,7 @@ combines all above options
 \* **(-a, -l, and -t are options)**
 `pwd` print working directory
 
-### cd
+### `cd`
 
 *change directory <argument>*
 
@@ -130,6 +177,14 @@ navigates up 2 directories
 
 `mkdir`
 make new directory
+
+`take path/to/directory`
+
+Makes a new directory in the defined path and moves into it
+
+`tab`
+
+Makes a new tab from the current directory
 
 `touch`
 	create new file within directory
