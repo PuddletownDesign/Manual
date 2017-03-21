@@ -14,9 +14,27 @@ Download and install iTerm2 here.
 
 Download and install my default settings here.
 
+## Basic Terminal Hotkeys
+
+to test these just write a line of random text in the terminal and test out each of these key commands.
+
+*   `ctrl + a` -  jump to beginning of the line
+*   `ctrl + e` -  jump to end of the line
+*   `ctrl + u` -  clear the current line
+
+
 ### Install iterm2 custom settings
 
 I'll upload custom settings shortly...
+
+### Cool iTerm2 shortcuts
+
+*   `cmd+shift+h` - show paste history
+*   `cmd+/` - show cursor if you're lost working on multiple panes
+*   `cmd+options+e` - search multiple tabs (mac expose style)
+*   `cmd+;` - autocomplete type from previous commands
+*   `cmd+d` - split window vertical
+*   `cmd+shift+d` - split window horizontal
 
 ## Shell prompt
 
@@ -75,7 +93,7 @@ export ZSH=/Users/Brent/Documents/Terminal/oh-my-zsh
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="puddletown"
 
-plugins=(git bundler osx textmate)
+plugins=(git osx textmate colorize colored-man-pages thefuck docker gulp history z zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -94,6 +112,15 @@ alias a='atom'
 alias reload='. ~/.zshrc'
 alias wds='webpack-dev-server --progress --colors'
 alias update='brew update && npm update -g && apm update && upgrade_oh_my_zsh'
+```
+
+
+## Add syntax Highlighting
+
+Add syntax highlighting to commands you have not send yet with *zsh-syntax-highlighting*. This will allow you to see colored versons of your commands to visually proof them for errors while you type.
+
+```
+$ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
 ## Oh My ZSH tips and tricks
@@ -123,6 +150,19 @@ $ brew install <program name>
 You can read more about it here:
 
 <https://brew.sh>
+
+## Install first brew package for ZSH
+
+Install **thefuck**. Corrects mistyped terminal commands so that you don't have to type the whole thing over.
+
+```
+$ brew install thefuck
+```
+
+1.  tap `esc` twice and it will show you corrections.
+2.  typing `fuck` will send the corrected commands
+
+Read more about it here: <https://github.com/nvbn/thefuck>
 
 ## Basic Terminal Command Reference
 
