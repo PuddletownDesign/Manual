@@ -1,0 +1,18 @@
+# Javascript
+
+For most of this part you will be working through the book *You Don't know Javascript*. Read each of the books through beginning to end.
+
+## How to use these books
+
+Use chrome developer tools to load and run each of the examples in this book. Set break points in any code you are not 100% sure how it's executing. Make sure to understand each concept and example.
+
+Make sure to make use of or create snippets for any general code blocks or functions or keywords you come across.
+
+## ES6
+
+For whatever reason the author included several code examples in ES6. This is the next version of javascript that will begin using soon. Examples written in ES6 are to be modified to work with javascript ES5.
+
+Replace the following keywords in examples
+
+	1. 	Replace `const` with `var`
+	2.	Replace `let` with `var`
