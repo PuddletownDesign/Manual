@@ -84,34 +84,45 @@ Zsh is configured through the .zshrc file
 ## Default `.zsrch` file
 
 ```shell
+# If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:/Users/Brent/Files/Sites/bin:$PATH
 export VAGRANT_HOME=/Users/Brent/Documents/Vagrant/vagrant.d
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/Brent/Documents/Terminal/oh-my-zsh
 
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="puddletown"
 
-plugins=(git osx textmate colorize colored-man-pages thefuck docker gulp history z zsh-syntax-highlighting)
+# Uncomment the following line to use hyphen-insensitive completion. Case
+# sensitive completion must be off. _ and - will be interchangeable.
+HYPHEN_INSENSITIVE="true"
 
-source $ZSH/oh-my-zsh.sh
+# Uncomment the following line to disable bi-weekly auto-update checks.
+DISABLE_AUTO_UPDATE="true"
 
-# User configuration
+# Uncomment the following line to enable command auto-correction.
+ENABLE_CORRECTION="true"
 
-# export MANPATH="/usr/local/man:$MANPATH"
+# Uncomment the following line to display red dots whilst waiting for completion.
+COMPLETION_WAITING_DOTS="true"
 
-# Aliases
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+plugins=(git osx textmate bower colorize colored-man-pages extract thefuck docker gulp history z zsh-syntax-highlighting)
+
+# ZSH aliases
 alias zshconfig='atom ~/.zshrc'
 alias ohmyzsh='atom ~/.oh-my-zsh'
-alias vm='cd /Users/Brent/Files/Sites/debian/vagrant'
-
-# Misc commands
-alias l='ls -l'
-alias a='atom'
 alias reload='. ~/.zshrc'
-alias wds='webpack-dev-server --progress --colors'
 alias update='brew update && npm update -g && apm update && upgrade_oh_my_zsh'
+
+#misc commands
+alias l='ls -lG'
+alias a='atom'
+alias tmm='sudo fs_usage -f -R filesys backupd'
+alias wds='webpack-dev-server --progress --colors'
 ```
 
 
@@ -178,7 +189,7 @@ read the manual pages. Hit `q` to escape the manual pages
 ### `d`
 
 `d` - Shows the stack of last used directories
-`cd +n` - Goes to that directory in the stack
+`1` - Typing a number (ex. 1,2,3,4,5) goes to that directory
 
 ### `ls`
 
@@ -215,16 +226,11 @@ navigates up 2 directories
 
 ### Making directories and files
 
-`mkdir`
-make new directory
+`mkdir` -make new directory
 
-`take path/to/directory`
+`take path/to/directory` - Makes a new directory in the defined path and moves into it
 
-Makes a new directory in the defined path and moves into it
-
-`tab`
-
-Makes a new tab from the current directory
+`tab` - Makes a new tab from the current directory
 
 `touch`
 	create new file within directory
