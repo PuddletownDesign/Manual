@@ -71,7 +71,7 @@ $ apm install atom-beautify atom-wrap-in-tag autocomplete-bash-builtins autocomp
   'alt-cmd-w': 'editor:toggle-soft-wrap'
   'alt-cmd-e': 'html-entitize:encode'
   'alt-cmd-d': 'html-entitize:decode'
-  'cmd-~': 'wrap-in-tag:wrap'
+  'ctrl-1': 'wrap-in-tag:wrap'
 ```
 
 ## Modifying and customizing atom packages
@@ -83,9 +83,9 @@ $ apm install atom-beautify atom-wrap-in-tag autocomplete-bash-builtins autocomp
 
 ## Useful keyboard shortcuts
 
-* `command + option + w` toggles line wrapping
-* `command + option + e` encodes selected special html characters
-* `command + option + d` decodes selected special html characters
+*   `command + option + w` toggles line wrapping
+*   `command + option + e` encodes selected special html characters
+*   `command + option + d` decodes selected special html characters
 
 ### Packages
 
@@ -96,9 +96,9 @@ $ apm install atom-beautify atom-wrap-in-tag autocomplete-bash-builtins autocomp
 
 *This still has some snags, make sure to do it only on the first column until it gets fixed*
 
-*  `cmd + shift + l` - selects multiple lines (on selected text), great for wrapping multiple lines at once
-*  `cmd + ~` - wraps the lines in tags
-*  `ctrl + shift (up|down)` - click then select multiple lines at once. (*useful for indents*)
+*   `cmd + shift + l` - selects multiple lines (on selected text), great for wrapping multiple lines at once
+*   `cmd + ~` - wraps the lines in tags
+*   `ctrl + shift (up|down)` - click then select multiple lines at once. (*useful for indents*)
 
 ### Movement
 
