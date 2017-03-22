@@ -1,7 +1,6 @@
-$grey: #262626;
-
 @import 'reset'; // @import 'reset';
 @import 'typography';
+$grey: #262626;
 
 body {
 	color: $grey;
@@ -9,22 +8,23 @@ body {
 
 header {
 	padding: 7em 10%;
+
 	h1 {
 		padding-bottom: 4em;
+
 		img {
 			width: 35px;
 		}
 	}
+
 	p {
 		font-size: 2.4em;
-		letter-spacing: 0.11em;
+		letter-spacing: .11em;
 		line-height: 1.65em;
 	}
 }
 
-section {
-
-}
+section {}
 
 .links {
 	padding-bottom: 5em;
@@ -34,30 +34,33 @@ section {
 		width: 35%;
 		padding-left: 10%;
 		padding-right: 3%;
+
 		h2 {
 			text-transform: uppercase;
 			font-size: .8em;
-			letter-spacing: 0.31em;
+			letter-spacing: .31em;
 			color: #999;
 			padding-bottom: 2em;
 		}
+
 		ul {
 			list-style: none;
 			padding-left: 0;
 			padding-bottom: 7em;
-			color: #555;
 			font-size: .9em;
 			line-height: 2.1em;
+
 			li {
-				letter-spacing: .07em;
+				letter-spacing: .1em;
+
 				a {
 					color: #555;
 					text-decoration: none;
+
 					&:hover {
 						text-decoration: underline;
 					}
 				}
-
 			}
 		}
 	}
@@ -65,9 +68,8 @@ section {
 
 .projects {
 	figure {
-		img {
+		img {}
 
-		}
 		figcaption {
 			text-align: center;
 			padding: 3em 1em;
