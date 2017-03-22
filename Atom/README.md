@@ -44,7 +44,7 @@ $ apm disable autoflow metrics exception-reporting background-tips language-c la
 ## Useful packages
 
 ```
-$ apm install todo-show language-sass no-title-bar atom-wrap-in-tag color-picker pigments file-icons git-plus merge-conflicts emmet emmet-snippets-compatibility docblockr highlight-selected html-entitize linter linter-htmlhint linter-markdown linter-csslint linter-scss-lint linter-jshint minimap goto-definition
+$ apm install atom-beautify atom-wrap-in-tag autocomplete-bash-builtins autocomplete-paths busy-signal color-picker docblockr emmet emmet-snippets-compatibility file-icons git-plus goto-definition gulp-snippets highlight-selected html-entitize intentions javascript-snippets linter linter-htmlhint linter-jshint linter-markdown linter-scss-lint linter-ui-default no-title-bar pigments turbo-javascript
 ```
 
 *   No Title Bar - `apm install no-title-bar`
