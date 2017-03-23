@@ -22,7 +22,6 @@ body {
             padding: 0 0 0 8%;
             font-size: 1.3em;
             font-weight: 100;
-            left: 0px;
             line-height: 1em;
             width: 40%;
             vertical-align: middle;
@@ -69,14 +68,21 @@ body {
 
         blockquote {
             font-style: italic;
+            font-size: 1.1em;
             background-color: white;
             padding: 1.1em 0 7%;
+
+
+            cite {
+                color: #999;
+            }
         }
     }
 
     > div {
         width: 40%;
         padding: 1.5%;
+        padding-bottom: 2em;
         display: inline-block;
         vertical-align: top;
         text-align: left;
@@ -86,18 +92,25 @@ body {
 
         h2 {
             padding-top: .4em;
-            padding-bottom: .4em;
-            letter-spacing: .04em;
+            letter-spacing: .02em;
             font-size: 1.28em;
             font-weight: 100;
+
+
         }
 
         p {
             font-weight: 100;
             letter-spacing: -.01em;
+            max-height: 3.5em;
+
         }
 
         a {
+            text-decoration: none;
+            color: black;
+            font-size: 1em;
+            padding-bottom: .1em;
         }
     }
 }
