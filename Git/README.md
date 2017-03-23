@@ -2,11 +2,11 @@
 
 <!-- need to update with -->
 
-Git is the flow of a project. It watches everything that changes. You can revert back to any point of changes or manage a large team of programmers and merge all their work together. It can be very difficult to understand some of the concepts, stick with it. It's the underlying foundation of how you will work.
+Git is the flow of a project. It watches everything that changes. You can revert back to any point of changes or manage a large team of programmers and merge all their work together. It can be difficult to understand some of the concepts, stick with it. It's the underlying foundation of how you will work.
 
 ## Reference
 
-This is the best place to start. Work through the examples. *Ignore anything mentioning SVN, you can just skip over it.*
+This is the best place to start. Work through the examples. *Ignore anything mentioning SVN, you can skip over it.*
 
 <https://www.atlassian.com/git>
 
@@ -20,6 +20,41 @@ Once you learn the commands, use these shortcuts:
  \* =*zsh shortcut*
 
 ## Most Common Git Commands
+
+## Basic Workflow
+
+### Create or clone a project (repo)
+
+`git init` inside a new folder to create a repo
+
+or if there's an existing project you'd like to use:
+
+`git clone <repo url>`
+
+### Save a snapshot of a file
+
+`git add <filename>` - when you make a change and a file has reached a point that it would be good to take a snapshot. You can go back to this point with the next command. it's like a quick snapshot of one file that's changed.
+
+### Go back to the last `add command`
+
+`git reset <filename>` - goes back to the last time that you `add`ed the file
+
+`git reset` - without the file name will undo all changes since you last commited.
+
+### Committing a group of changes
+
+`git commit -m "notes on change"` - This creates a snapshot of a specific change that you made. Think of it like:
+
+1.  Fixed or changed the navbar color
+2.  Fixed bug with about section image display
+
+**Be sure to commit changes that are relevent to the commit message change. Assholes put generic messages or group files in illogical ways. Don't be an asshole.**
+
+### Going back to a previous commit
+
+### Creating branches for changes or fixes
+
+It's best practice to create a branch and then merge it in with the master branch once it's tested and complete.
 
 ### Utility Commands
 
@@ -46,7 +81,7 @@ Once you learn the commands, use these shortcuts:
 \*`gc`
 
 ### Branching/ Checking out
-`GIT BRANCH`	list all of a git project’s branches
+`GIT BRANCH`	list all project branches
 `GIT BRANCH <branch name>`	creates a new branch
 \*`gb`
 
@@ -77,7 +112,7 @@ Once you learn the commands, use these shortcuts:
 ### Diffing / Merging
 `GIT DIFF` shows the difference between the working directory and the staging area
 
-`GIT MERGE <branch name>`	used to join file changes from one branch to another *must be done from MASTER
+`GIT MERGE <branch name>`	used to join file changes from one branch to another *must do from MASTER
 \*`gm`
 
 ### Reverting
@@ -85,4 +120,4 @@ Once you learn the commands, use these shortcuts:
 `GIT RESET HEAD <filename>` 	unstages file changes in the staging area
 \*`grh`
 
-`GIT RESET SHA`	can be used to reset to a previous commit in your history
+`GIT RESET SHA` used to reset to a previous commit in your history
