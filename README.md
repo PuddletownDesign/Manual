@@ -1,7 +1,5 @@
 # Manual
 
-*write a description/objective here*
-
 ## Table of contents
 
 1.  [Terminal](https://github.com/RachelFrank/Manual/tree/master/Terminal)
@@ -18,15 +16,16 @@
 12. [Typography](https://github.com/RachelFrank/Manual/tree/master/Typography)
 13. [Responsive-Progressive](https://github.com/RachelFrank/Manual/tree/master/Responsive-Progressive)
 *   UI-UX
+*   Planning-Scrum
 *   Portfolio
 *   Javascript
-*   Javascript-Dev-Tools
 *   jQuery
-*   Gulp
+*   Javascript-Dev-Tools
+*   Task Runners / Bundlers
 *   Javascript-Advanced
 *   Unit-Testing
 *   D3
-*   Linear Algebra
+*   Statisics
 *   Shell-Scripting
 *   Node
 *   Node-Koa-Express
@@ -35,7 +34,6 @@
 *   Trigonometry
 *   Isometrics/React
 *   Linux-nginx
-*   Scrum-planning
 *   Web-App
 *   Mobile-App
 *   Desktop-App
