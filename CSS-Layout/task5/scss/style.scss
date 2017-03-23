@@ -1,31 +1,103 @@
-@import 'reset'; // @import 'typography';
-body {
-	padding-top: 7em;
-}
-img {
-	display: none;
-}
+@import 'reset';
+@import 'typography';
+$grey: #353535;
 
-header {
-	background-color: blue;
-	position: fixed;
-	width: 100%;
-	padding: 2em;
-	top:0px;
-}
-article {
-	background-color: red;
-	display: inline-block;
-	width: 78%;
-	float: left;
-	margin-left: 200px;
-}
-aside {
-	background-color: green;
-	display: inline-block;
-	float: left;
-	position: fixed;
-	left:0px;
-	height: 100%;
-	width: 200px;
+body {
+    text-align: center;
+
+    > header {
+        position: fixed;
+        display: inline-block;
+        background-color: rgba(3, 3, 3, 0.53);
+        color: white;
+        width: 100%;
+        left: 0px;
+        border-bottom: 1px solid black;
+        text-align: left;
+
+        h1 {
+            text-align: left;
+            display: inline-block;
+            margin-bottom: 0;
+            padding: 0 0 0 8%;
+            font-size: 1.3em;
+            font-weight: 100;
+            left: 0px;
+            line-height: 1em;
+            width: 40%;
+            vertical-align: middle;
+            letter-spacing: .05em;
+        }
+        nav {
+            display: inline-block;
+            padding: 0 0 0 5%;
+            width: 40%;
+
+
+            ul {
+                display: inline-block;
+                padding: 0;
+
+                li {
+                    display: inline-block;
+                    padding: 0;
+
+                    a {
+                        display: block;
+                        padding: 1em 1em;
+                        text-decoration: none;
+                        color: white;
+                        font-weight: 100;
+                        letter-spacing: .08em;
+                        &:hover {
+                            background-color: black;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    > figure {
+        background-image: url('img/blurrediowa.png');
+        img {
+            width: 233px;
+            padding: 6.3em 0 4.55em;
+
+        }
+
+        blockquote {
+            font-style: italic;
+            background-color: white;
+            padding: 1.1em 0 7%;
+        }
+    }
+
+    > div {
+        width: 40%;
+        padding: 1.5%;
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+
+        img {
+        }
+
+        h2 {
+            padding-top: .4em;
+            padding-bottom: .4em;
+            letter-spacing: .04em;
+            font-size: 1.28em;
+            font-weight: 100;
+        }
+
+        p {
+            font-weight: 100;
+            letter-spacing: -.01em;
+        }
+
+        a {
+        }
+    }
 }
