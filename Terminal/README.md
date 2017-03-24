@@ -1,6 +1,6 @@
 # Command Line
 
-In the modern world most development is done through the terminal. I'm not 100% sure why. People could easily create apps with interfaces to do all of this. My guess is, that once you get used to it, it's actually easier.
+In the modern world most development is through the terminal. I'm not 100% sure why. People could create apps with interfaces to do all of this. My guess is, that once you get used to it, it's actually easier.
 
 Terminal is a different way to use your computer. Instead of pointing and clicking you type what you want. On mac you have a built in terminal located in `/Applications/Utilities/Terminal.app`. *look up [file paths](), if you don't know what this means. ex . (Folder/Folder/file.txt)*
 
@@ -300,7 +300,8 @@ force recursive removes directory
 `whereis`
 	finds program ex. whereis perl > user/bin/perl
 
-### The Grepping and the Piping
+### Finding Filds
+
 `grep`
 	ex. `grep -textsearch <filename>`
 	sort through long files or dir for specific word or character
@@ -314,6 +315,53 @@ force recursive removes directory
         `find` finds `~/` in location `"filename.txt"` filename
 or...
 `“*...*”` *wild card* finds a series of characters within other characters
+
+### The Grepping and the Piping
+
+Piping is a way of taking the output of one command and putting into the input of another command.
+
+Let's install two short programs
+
+```
+brew install cowsay fortune
+```
+
+`cowsay` will print a cow speaking
+
+`cowsay "wtf is this shit"`
+
+prints
+```
+__________________
+< wtf is this shit >
+------------------
+	   \   ^__^
+		\  (oo)\_______
+		   (__)\       )\/\
+			   ||----w |
+			   ||     ||
+```
+
+Now lets try out fortune
+
+`fortune` will print a small text fortune for you.
+
+`$ fortune`
+
+```
+"Microwave oven?  Whaddya mean, it's a microwave oven?  I've been watching
+Channel 4 on the thing for two weeks."
+```
+
+So now let's make the cow tell us a fortune.  
+
+take the output of `fortune` and make it the input of `cowsay` by using a pipe.
+
+`$ fortune | cowsay`
+
+now we have a fortune telling cow.
+
+There's all sorts of other animals you can make talk too. They are located in `cowfiles`. `man cowsay` and see if you can get a stoned turkey to tell you a fortune.
 
 ## SSH to a remote computer
 
