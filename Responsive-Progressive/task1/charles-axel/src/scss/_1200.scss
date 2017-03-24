@@ -1,17 +1,33 @@
-html {}
-
 body {
 	> header {
+		h1 {}
+
 		nav {
-			ul {}
-
-			li {}
-
-			a {}
+			ul {
+				li {
+					a {
+						&:hover {}
+					}
+				}
+			}
 		}
 	}
 
-	> section {}
+	> figure {
+		img {}
 
-	> footer {}
+		blockquote {
+			cite {}
+		}
+	}
+
+	> div {
+		img {}
+
+		h2 {}
+
+		p {}
+
+		a {}
+	}
 }
