@@ -175,10 +175,16 @@ $ brew install thefuck
 
 Read more about it here: <https://github.com/nvbn/thefuck>
 
-## Install `trash`
+### Install `trash`
 
 ```
 $ brew install trash
+```
+
+### Other useful programs
+
+```
+$ brew install tree youtube-dl speedtest-cli wget nmap links
 ```
 
 let's you move items to the trash instead of having to brutally `rm -rf` non-empty folders to delete them.
