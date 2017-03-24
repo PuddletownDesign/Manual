@@ -1,0 +1,31 @@
+@import 'reset'; // @import 'typography';
+body {
+	padding-top: 7em;
+}
+img {
+	display: none;
+}
+
+header {
+	background-color: blue;
+	position: fixed;
+	width: 100%;
+	padding: 2em;
+	top:0px;
+}
+article {
+	background-color: red;
+	display: inline-block;
+	width: 78%;
+	float: left;
+	margin-left: 200px;
+}
+aside {
+	background-color: green;
+	display: inline-block;
+	float: left;
+	position: fixed;
+	left:0px;
+	height: 100%;
+	width: 200px;
+}
