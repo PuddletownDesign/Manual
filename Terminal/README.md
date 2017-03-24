@@ -2,19 +2,19 @@
 
 ## Table of contents
 
-1.  [Summary](#Summary)
-2.  [iTerm2](#iTerm2)
-    1.  [Hotkeys](#Basic-Terminal-Hotkeys)
-	2.  [Custom Settings](#Custom-Settings)
-	3.  [Cool iTerm2 shortcuts](#Cool-iTerm2-shortcuts)
-3.  [Shell prompt](#Shell-prompt)
-4.  [Shells and configuration](#Shells-and-configuration)
-    1.  [zsh \(Z shell\)](#zsh-Z-shell)
-	2.  [Oh my zsh](#Oh-my-zsh)
-	3.  [.zsrch file](#Default-zsrch-file)
-	4.  [Syntax Highlighting](#Syntax-Highlighting)
-	5.  [Oh My ZSH tips and tricks](#Oh-My-ZSH-tips-and-tricks)
-5.  [Brew](#Brew)
+1.  [Summary](#user-content-summary)
+2.  [iTerm2](#user-content-iterm2)
+    1.  [Hotkeys](#user-content-basic-terminal-hotkeys)
+	2.  [Custom settings](#user-content-custom-settings)
+	3.  [iterm2 shortcuts](#user-content-cool-iterm2-shortcuts)
+3.  [Shell Prompt](#user-content-shell-prompt)
+4.  [shells and configuration](#user-content-shells-and-configuration)
+    1.  [zsh \(z shell\)](#user-content-zsh-z-shell)
+	2.  [oh my zsh](#user-content-oh-my-zsh)
+	3.  [.zsrch file](#user-content-default-zsrch-file)
+	4.  [syntax highlighting](#user-content-syntax-highlighting)
+	5.  [oh my zsh tips and tricks](#user-content-oh-my-zsh-tips-and-tricks)
+5.  [brew](#user-content-brew)
 
 
 ## Summary
