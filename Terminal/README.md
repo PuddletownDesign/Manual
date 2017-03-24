@@ -16,7 +16,7 @@ Download and install my default settings here.
 
 ## Basic Terminal Hotkeys
 
-to test these just write a line of random text in the terminal and test out each of these key commands.
+to test these write a line of random text in the terminal and test out each of these key commands.
 
 *   `ctrl + a` -  jump to beginning of the line
 *   `ctrl + e` -  jump to end of the line
