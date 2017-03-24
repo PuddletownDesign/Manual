@@ -1,5 +1,24 @@
 # Command Line
 
+## Table of contents
+
+1.  [Summary](#Summary)
+2.  [iTerm2](#iTerm2)
+    1.  [Hotkeys](#Basic-Terminal-Hotkeys)
+	2.  [Custom Settings](#Custom-Settings)
+	3.  [Cool iTerm2 shortcuts](#Cool-iTerm2-shortcuts)
+3.  [Shell prompt](#Shell-prompt)
+4.  [Shells and configuration](#Shells-and-configuration)
+    1.  [zsh \(Z shell\)](#zsh-Z-shell)
+	2.  [Oh my zsh](#Oh-my-zsh)
+	3.  [.zsrch file](#Default-zsrch-file)
+	4.  [Syntax Highlighting](#Syntax-Highlighting)
+	5.  [Oh My ZSH tips and tricks](#Oh-My-ZSH-tips-and-tricks)
+5.  [Brew](#Brew)
+
+
+## Summary
+
 In the modern world most development is through the terminal. I'm not 100% sure why. People could create apps with interfaces to do all of this. My guess is, that once you get used to it, it's actually easier.
 
 Terminal is a different way to use your computer. Instead of pointing and clicking you type what you want. On mac you have a built in terminal located in `/Applications/Utilities/Terminal.app`. *look up [file paths](), if you don't know what this means. ex . (Folder/Folder/file.txt)*
@@ -14,7 +33,7 @@ Download and install iTerm2 here.
 
 Download and install my default settings here.
 
-## Basic Terminal Hotkeys
+### Basic Terminal Hotkeys
 
 to test these write a line of random text in the terminal and test out each of these key commands.
 
@@ -23,9 +42,9 @@ to test these write a line of random text in the terminal and test out each of t
 *   `ctrl + u` -  clear the current line
 
 
-### Install iterm2 custom settings
+### Custom Settings
 
-I'll upload custom settings shortly...
+I'll upload custom settings soon...
 
 ### Cool iTerm2 shortcuts
 
@@ -81,7 +100,7 @@ Zsh is configured through the .zshrc file
 `.zshrc` is the zsh config file. to edit type `zshconfig`
 
 
-## Default `.zsrch` file
+### Default `.zsrch` file
 
 ```shell
 # If you come from bash you might have to change your $PATH.
@@ -126,7 +145,7 @@ alias wds='webpack-dev-server --progress --colors'
 ```
 
 
-## Add syntax Highlighting
+### Syntax Highlighting
 
 Add syntax highlighting to commands you have not send yet with *zsh-syntax-highlighting*. This will allow you to see colored versons of your commands to visually proof them for errors while you type.
 
@@ -134,7 +153,7 @@ Add syntax highlighting to commands you have not send yet with *zsh-syntax-highl
 $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-## Oh My ZSH tips and tricks
+### Oh My ZSH tips and tricks
 
 [oh-my-zsh cheatsheet](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)
 
@@ -144,9 +163,9 @@ $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTO
 3.  Type `reload` to reload the `.zshrc` file
 4.  `update` updates Atom/Node/ZSH/Brew in one command
 
-## Installing mac terminal package manager
+##  Brew
 
-A terminal package manager is like the app store or google play store for terminal. It downloads and installs programs for you to use. Brew is the best mac terminal package manager. It can be installed by running:
+Brew is a terminal package manager is like the app store or google play store for terminal. It downloads and installs programs for you to use. Brew is the best mac terminal package manager. It can be installed by running:
 
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -237,6 +256,14 @@ navigates up 2 directories
 
 `cd ../../<filename>`
 		navigates up 2 directories and into <filename>
+
+#### Using `z` to quickly change to previously used directories
+
+After you have `cd`ed around for a while try using `z` to quickly move back to a previously visited directory.
+
+`z des[tab]` brings up `/Users/Brent/Files/Design/`.
+
+`z` command paired with `d` will allow you too navigate non linearly through the filesystem.
 
 ### Making directories and files
 
@@ -361,7 +388,41 @@ take the output of `fortune` and make it the input of `cowsay` by using a pipe.
 
 now we have a fortune telling cow.
 
-There's all sorts of other animals you can make talk too. They are located in `cowfiles`. `man cowsay` and see if you can get a stoned turkey to tell you a fortune.
+There's all sorts of other animals you can make talk too. They are located in `cowfiles`. `man cowsay` and see if you can get a stoned turkey to list your current directory contents. paste the answer over my image.
+
+```
+___________________________________
+/ Atom CSS-Dev-Tools CSS-Formatting \
+| CSS-Layout Git HTML-Content       |
+| HTML-Interactive HTML-Structure   |
+| Javascript Javascript-Debugging   |
+| Markdown README.md                |
+| Responsive-Progressive SASS       |
+| Task-Runners-Bundlers Terminal    |
+\ Typography                        /
+-----------------------------------
+ \                                  ,+*^^*+___+++_
+  \                           ,*^^^^              )
+   \                       _+*                     ^**+_
+	\                    +^       _ _++*+_+++_,         )
+			 _+^^*+_    (     ,+*^ ^          \+_        )
+			{       )  (    ,(    ,_+--+--,      ^)      ^\
+		   { (@)    } f   ,(  ,+-^ __*_*_  ^^\_   ^\       )
+		  {:;-/    (_+*-+^^^^^+*+*<_ _++_)_    )    )      /
+		 ( /  (    (        ,___    ^*+_+* )   <    <      \
+		  U _/     )    *--<  ) ^\-----++__)   )    )       )
+		   (      )  _(^)^^))  )  )\^^^^^))^*+/    /       /
+		 (      /  (_))_^)) )  )  ))^^^^^))^^^)__/     +^^
+		(     ,/    (^))^))  )  ) ))^^^^^^^))^^)       _)
+		 *+__+*       (_))^)  ) ) ))^^^^^^))^^^^^)____*^
+		 \             \_)^)_)) ))^^^^^^^^^^))^^^^)
+		  (_             ^\__^^^^^^^^^^^^))^^^^^^^)
+			^\___            ^\__^^^^^^))^^^^^^^^)\\
+				 ^^^^^\uuu/^^\uuu/^^^^\^\^\^\^\^\^\^\
+					___) >____) >___   ^\_\_\_\_\_\_\)
+				   ^^^//\\_^^//\\_^       ^(\_\_\_\)
+					 ^^^ ^^ ^^^ ^
+```
 
 ## SSH to a remote computer
 
