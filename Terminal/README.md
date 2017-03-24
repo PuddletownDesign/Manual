@@ -175,9 +175,17 @@ $ brew install thefuck
 
 Read more about it here: <https://github.com/nvbn/thefuck>
 
+## Install `trash`
+
+```
+$ brew install trash
+```
+
+let's you move items to the trash instead of having to brutally `rm -rf` non-empty folders to delete them.
+
 ## Basic Terminal Command Reference
 
-Terminal commands like `ls`, `cd` are just programs that just in the terminal. They often don't have a visual interface. But they're apps all the same like the ones you use on your phone.
+Terminal commands such as `ls`, `cd` are just programs that just in the terminal. They often don't have a visual interface. But they're apps all the same like the ones you use on your phone.
 
 ### RTFM (Read The Fucking Manual)
 
