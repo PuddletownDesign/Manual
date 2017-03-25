@@ -59,9 +59,16 @@ body {
     > figure {
         background-image: url('images/blurrediowa.png');
         img {
-            width: 29%;
-            padding: 5.6em 0 8em;
+            width: 28.5%;
+            padding: 5.6em 0 .9em;
 
+        }
+        h1 {
+            color: white;
+            padding-bottom: 1.6em;
+            font-weight: 100;
+            font-size: 2.3em;
+            letter-spacing: .037em;
         }
 
         blockquote {
