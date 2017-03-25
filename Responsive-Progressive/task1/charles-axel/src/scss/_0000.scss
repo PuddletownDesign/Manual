@@ -59,16 +59,18 @@ body {
     > figure {
         background-image: url('images/blurrediowa.png');
         img {
-            width: 233px;
-            padding: 6.3em 0 4.55em;
+            width: 29%;
+            padding: 5.6em 0 8em;
 
         }
 
         blockquote {
             font-style: italic;
-            font-size: 1.1em;
+            font-size: .93em;
             background-color: white;
-            padding: 1.1em 0 7%;
+            padding: .9em 1em 16%;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            line-height: 1.5em;
 
 
             cite {
@@ -78,8 +80,8 @@ body {
     }
 
     > div {
-        width: 40%;
-        padding: 1.5%;
+        width: 42%;
+        padding: 3.5%;
         padding-bottom: 2em;
         display: inline-block;
         vertical-align: top;
@@ -90,8 +92,8 @@ body {
 
         h2 {
             padding-top: .4em;
-            letter-spacing: .02em;
-            font-size: 1.28em;
+            letter-spacing: .03em;
+            font-size: 1.18em;
             font-weight: 100;
 
 
@@ -99,9 +101,11 @@ body {
 
         p {
             font-weight: 100;
+            font-size: .9em;
             letter-spacing: -.01em;
-            max-height: 3.5em;
-
+            line-height: 1.38em;
+            max-height: 3em;
+            overflow: hidden;
         }
 
         a {
