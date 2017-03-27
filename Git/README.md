@@ -33,28 +33,46 @@ or if there's an existing project you'd like to use:
 
 ### Save a snapshot of a file
 
-`git add <filename>` - when you make a change and a file has reached a point that it would be good to take a snapshot. You can go back to this point with the next command. it's like a quick snapshot of one file that's changed.
+`git add <filename>` - add the file to staging for next commit
 
 ### Go back to the last `add command`
 
-`git reset <filename>` - goes back to the last time that you `add`ed the file
+`git reset <filename>` - removes a file from staging
 
-`git reset` - without the file name will undo all changes since you last commited.
+`git reset` - without the file name will undo all added files.
 
 ### Committing a group of changes
+
+when you make a change and a file has reached a point that it would be good to take a snapshot. You can go back to this point with the next command.
 
 `git commit -m "notes on change"` - This creates a snapshot of a specific change that you made. Think of it like:
 
 1.  Fixed or changed the navbar color
 2.  Fixed bug with about section image display
 
+### Go Back to last commit
+
+`git checkout -- <file>` - reverts the file back to previous commit
+`git reset HEAD --hard` - bring all files back to previous commit and lose all changes.
+
+### Go Back to a specific commit
+
+`git checkout <commit> <filename>` - reverts a specific file
+`git checkout <commit>` - reverts the whole working directory
+
+
+
 **Be sure to commit changes that are relevent to the commit message change. Assholes put generic messages or group files in illogical ways. Don't be an asshole.**
 
 ### Going back to a previous commit
 
+`git checkout -- <filename>`
+
 ### Creating branches for changes or fixes
 
 It's best practice to create a branch and then merge it in with the master branch once it's tested and complete.
+
+
 
 ### Utility Commands
 

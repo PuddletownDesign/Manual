@@ -1,27 +1,24 @@
 body {
-	font-family: Helvetica, Arial, Verdana, sans-serif;
-	font-size: 100%;
+	font-family: Lato, Helvetica, Arial, Verdana, sans-serif;
+	font-size: 90%;
 	/* background: url(graphics/14.gif); */
 }
 
 h1 {
 	font-size: 2.5em;
-	font-weight: bold;
 	line-height: 1.255em;
-	padding-bottom: .331em;
-	/* 	padding-bottom: .94em; */
-	padding-top: .31em;
+	padding-bottom: 0.331em;
+	/*     padding-bottom: .94em; */
+	padding-top: 0.31em;
 }
 
 h2 {
-	font-weight: bold;
 	font-size: 1.8em;
 	line-height: 1.33em;
-	padding-bottom: .06em;
+	padding-bottom: 0.06em;
 }
 
 h3 {
-	font-weight: bold;
 	font-size: 1.4em;
 	line-height: 1.57em;
 	padding-top: 1.57em;
@@ -43,6 +40,10 @@ ul {
 	font-size: 1em;
 	line-height: 1.57em;
 	padding-bottom: 1.2em;
-	padding-top: .47em;
-	/* 	padding-top: 1.97em; */
+	padding-top: 0.47em;
+	/*     padding-top: 1.97em; */
+}
+
+blockquote {
+	font-family: Georgia, "Times New Roman", Times, serif;
 }

@@ -1,6 +1,25 @@
 # Command Line
 
-In the modern world most development is done through the terminal. I'm not 100% sure why. People could easily create apps with interfaces to do all of this. My guess is, that once you get used to it, it's actually easier.
+## Table of contents
+
+1.  [Summary](#user-content-summary)
+2.  [iTerm2](#user-content-iterm2)
+    1.  [Hotkeys](#user-content-basic-terminal-hotkeys)
+	2.  [Custom settings](#user-content-custom-settings)
+	3.  [iterm2 shortcuts](#user-content-cool-iterm2-shortcuts)
+3.  [Shell Prompt](#user-content-shell-prompt)
+4.  [shells and configuration](#user-content-shells-and-configuration)
+    1.  [zsh \(z shell\)](#user-content-zsh-z-shell)
+	2.  [oh my zsh](#user-content-oh-my-zsh)
+	3.  [.zsrch file](#user-content-default-zsrch-file)
+	4.  [syntax highlighting](#user-content-syntax-highlighting)
+	5.  [oh my zsh tips and tricks](#user-content-oh-my-zsh-tips-and-tricks)
+5.  [brew](#user-content-brew)
+
+
+## Summary
+
+In the modern world most development is through the terminal. I'm not 100% sure why. People could create apps with interfaces to do all of this. My guess is, that once you get used to it, it's actually easier.
 
 Terminal is a different way to use your computer. Instead of pointing and clicking you type what you want. On mac you have a built in terminal located in `/Applications/Utilities/Terminal.app`. *look up [file paths](), if you don't know what this means. ex . (Folder/Folder/file.txt)*
 
@@ -14,18 +33,18 @@ Download and install iTerm2 here.
 
 Download and install my default settings here.
 
-## Basic Terminal Hotkeys
+### Basic Terminal Hotkeys
 
-to test these just write a line of random text in the terminal and test out each of these key commands.
+to test these write a line of random text in the terminal and test out each of these key commands.
 
 *   `ctrl + a` -  jump to beginning of the line
 *   `ctrl + e` -  jump to end of the line
 *   `ctrl + u` -  clear the current line
 
 
-### Install iterm2 custom settings
+### Custom Settings
 
-I'll upload custom settings shortly...
+I'll upload custom settings soon...
 
 ### Cool iTerm2 shortcuts
 
@@ -81,7 +100,7 @@ Zsh is configured through the .zshrc file
 `.zshrc` is the zsh config file. to edit type `zshconfig`
 
 
-## Default `.zsrch` file
+### Default `.zsrch` file
 
 ```shell
 # If you come from bash you might have to change your $PATH.
@@ -126,7 +145,7 @@ alias wds='webpack-dev-server --progress --colors'
 ```
 
 
-## Add syntax Highlighting
+### Syntax Highlighting
 
 Add syntax highlighting to commands you have not send yet with *zsh-syntax-highlighting*. This will allow you to see colored versons of your commands to visually proof them for errors while you type.
 
@@ -134,7 +153,7 @@ Add syntax highlighting to commands you have not send yet with *zsh-syntax-highl
 $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-## Oh My ZSH tips and tricks
+### Oh My ZSH tips and tricks
 
 [oh-my-zsh cheatsheet](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)
 
@@ -144,9 +163,9 @@ $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTO
 3.  Type `reload` to reload the `.zshrc` file
 4.  `update` updates Atom/Node/ZSH/Brew in one command
 
-## Installing mac terminal package manager
+##  Brew
 
-A terminal package manager is like the app store or google play store for terminal. It downloads and installs programs for you to use. Brew is the best mac terminal package manager. It can be installed by running:
+Brew is a terminal package manager is like the app store or google play store for terminal. It downloads and installs programs for you to use. Brew is the best mac terminal package manager. It can be installed by running:
 
 ```
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -238,6 +257,14 @@ navigates up 2 directories
 `cd ../../<filename>`
 		navigates up 2 directories and into <filename>
 
+#### Using `z` to quickly change to previously used directories
+
+After you have `cd`ed around for a while try using `z` to quickly move back to a previously visited directory.
+
+`z des[tab]` brings up `/Users/Brent/Files/Design/`.
+
+`z` command paired with `d` will allow you too navigate non linearly through the filesystem.
+
 ### Making directories and files
 
 `mkdir` -make new directory
@@ -300,7 +327,8 @@ force recursive removes directory
 `whereis`
 	finds program ex. whereis perl > user/bin/perl
 
-### The Grepping and the Piping
+### Finding Filds
+
 `grep`
 	ex. `grep -textsearch <filename>`
 	sort through long files or dir for specific word or character
@@ -314,6 +342,87 @@ force recursive removes directory
         `find` finds `~/` in location `"filename.txt"` filename
 or...
 `“*...*”` *wild card* finds a series of characters within other characters
+
+### The Grepping and the Piping
+
+Piping is a way of taking the output of one command and putting into the input of another command.
+
+Let's install two short programs
+
+```
+brew install cowsay fortune
+```
+
+`cowsay` will print a cow speaking
+
+`cowsay "wtf is this shit"`
+
+prints
+```
+__________________
+< wtf is this shit >
+------------------
+	   \   ^__^
+		\  (oo)\_______
+		   (__)\       )\/\
+			   ||----w |
+			   ||     ||
+```
+
+Now lets try out fortune
+
+`fortune` will print a small text fortune for you.
+
+`$ fortune`
+
+```
+"Microwave oven?  Whaddya mean, it's a microwave oven?  I've been watching
+Channel 4 on the thing for two weeks."
+```
+
+So now let's make the cow tell us a fortune.  
+
+take the output of `fortune` and make it the input of `cowsay` by using a pipe.
+
+`$ fortune | cowsay`
+
+now we have a fortune telling cow.
+
+There's all sorts of other animals you can make talk too. They are located in `cowfiles`. `man cowsay` and see if you can get a stoned turkey to list your current directory contents. paste the answer over my image.
+
+```
+___________________________________
+/ Atom CSS-Dev-Tools CSS-Formatting \
+| CSS-Layout Git HTML-Content       |
+| HTML-Interactive HTML-Structure   |
+| Javascript Javascript-Debugging   |
+| Markdown README.md                |
+| Responsive-Progressive SASS       |
+| Task-Runners-Bundlers Terminal    |
+\ Typography                        /
+-----------------------------------
+ \                                  ,+*^^*+___+++_
+  \                           ,*^^^^              )
+   \                       _+*                     ^**+_
+	\                    +^       _ _++*+_+++_,         )
+			 _+^^*+_    (     ,+*^ ^          \+_        )
+			{       )  (    ,(    ,_+--+--,      ^)      ^\
+		   { (@)    } f   ,(  ,+-^ __*_*_  ^^\_   ^\       )
+		  {:;-/    (_+*-+^^^^^+*+*<_ _++_)_    )    )      /
+		 ( /  (    (        ,___    ^*+_+* )   <    <      \
+		  U _/     )    *--<  ) ^\-----++__)   )    )       )
+		   (      )  _(^)^^))  )  )\^^^^^))^*+/    /       /
+		 (      /  (_))_^)) )  )  ))^^^^^))^^^)__/     +^^
+		(     ,/    (^))^))  )  ) ))^^^^^^^))^^)       _)
+		 *+__+*       (_))^)  ) ) ))^^^^^^))^^^^^)____*^
+		 \             \_)^)_)) ))^^^^^^^^^^))^^^^)
+		  (_             ^\__^^^^^^^^^^^^))^^^^^^^)
+			^\___            ^\__^^^^^^))^^^^^^^^)\\
+				 ^^^^^\uuu/^^\uuu/^^^^\^\^\^\^\^\^\^\
+					___) >____) >___   ^\_\_\_\_\_\_\)
+				   ^^^//\\_^^//\\_^       ^(\_\_\_\)
+					 ^^^ ^^ ^^^ ^
+```
 
 ## SSH to a remote computer
 
