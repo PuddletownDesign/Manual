@@ -2,6 +2,7 @@
 
 body {
     text-align: center;
+    padding-bottom: 3em;
 
     > header {
         position: fixed;
@@ -27,27 +28,13 @@ body {
         }
         nav {
             display: none;
-            padding: 0 0 0 5%;
-            width: 40%;
-
-
             ul {
-                display: inline-block;
-                padding: 0;
 
                 li {
-                    display: inline-block;
-                    padding: 0;
+
 
                     a {
-                        display: block;
-                        padding: 1em 1em;
-                        text-decoration: none;
-                        color: white;
-                        font-weight: 100;
-                        letter-spacing: .08em;
                         &:hover {
-                            background-color: black;
 
                         }
                     }
@@ -58,17 +45,25 @@ body {
 
     > figure {
         background-image: url('images/blurrediowa.png');
-        img {
-            width: 28.5%;
-            padding: 5.6em 0 .9em;
+        background-size: 200%;
+        padding-top: 5em;
 
-        }
-        h1 {
+        h2 {
             color: white;
-            padding-bottom: 1.6em;
             font-weight: 100;
-            font-size: 2.3em;
+            font-size: 1em;
+            margin: 0 auto 3em;
             letter-spacing: .037em;
+
+            height: 210px;
+            width: 150px;
+            background: url('images/logo.png') top left no-repeat;
+            background-size: 500%;
+
+
+            span {
+                display: none;
+            }
         }
 
         blockquote {
