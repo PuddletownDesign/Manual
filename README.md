@@ -19,19 +19,19 @@
 *   Planning-Scrum
 *   Portfolio
 *   Javascript
-*   jQuery
 *   Javascript-Dev-Tools
+*   jQuery
 *   Task Runners / Bundlers
 *   Javascript-Advanced
 *   Unit-Testing
 *   D3
 *   Statisics
+*   Geometry
 *   Shell-Scripting
 *   Node
 *   Node-Koa-Express
 *   Databases
 *   APIs
-*   Trigonometry
 *   Isometrics/React
 *   Linux-nginx
 *   Web-App
