@@ -19,8 +19,6 @@ Once you learn the commands, use these shortcuts:
 ## Notation
  \* =*zsh shortcut*
 
-## Most Common Git Commands
-
 ## Basic Workflow
 
 ### Create or clone a project (repo)
@@ -31,15 +29,17 @@ or if there's an existing project you'd like to use:
 
 `git clone <repo url>`
 
-### Save a snapshot of a file
+### Add files to save as a snapshot
 
 `git add <filename>` - add the file to staging for next commit
 
-### Go back to the last `add command`
+### Undo added files
 
-`git reset <filename>` - removes a file from staging
+`git reset HEAD <filename>` - removes a file from staging
 
-`git reset` - without the file name will undo all added files.
+`git reset HEAD` - without the file name will undo all added files.
+
+`git reset HEAD --hard` - resets working directory back to last commit. All changes  lost.
 
 ### Committing a group of changes
 
@@ -49,6 +49,12 @@ when you make a change and a file has reached a point that it would be good to t
 
 1.  Fixed or changed the navbar color
 2.  Fixed bug with about section image display
+
+### Adding to a commit if you forgot something
+
+You forgot something before you commited. You can add it to the last commit by using ammend.
+
+`git commit --amend`
 
 ### Go Back to last commit
 
