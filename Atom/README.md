@@ -63,6 +63,37 @@ $ apm install atom-beautify atom-wrap-in-tag autocomplete-bash-builtins autocomp
 *   Linter HTML - `apm install linter-htmlhint`
 *   Linter Markdown - `apm install linter-markdown`
 
+## Backing up and restoring configurations
+
+### Backing up
+
+####  Backup package list
+
+```
+$ apm list --installed --bare > packages.list
+```
+
+#### Back up files in the .atom directory
+```
+.gitignore
+config.cson
+init.coffee
+keymap.cson
+linter-config.json
+package-deps-state.json
+packages.list
+snippets.cson
+styles.less
+```
+
+### Restore from back up
+
+Pull your changes back into the linked atom directory. Then install Atom.
+
+```
+$ brew cask install atom
+```
+
 
 ## Initial custom keybindings
 
@@ -97,7 +128,7 @@ $ apm install atom-beautify atom-wrap-in-tag autocomplete-bash-builtins autocomp
 *This still has some snags, make sure to do it only on the first column until it gets fixed*
 
 *   `cmd + shift + l` - selects multiple lines (on selected text), great for wrapping multiple lines at once
-*   `cmd + ~` - wraps the lines in tags
+*   `ctrl - 1` - wraps the lines in tags
 *   `ctrl + shift (up|down)` - click then select multiple lines at once. (*useful for indents*)
 
 ### Movement
