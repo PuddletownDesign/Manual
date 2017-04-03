@@ -37,3 +37,27 @@
 *   Web-App
 *   Mobile-App
 *   Desktop-App
+
+## Next up
+
+### Get good with git
+
+Use a [forking workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#forking-workflow) for keeping configs up to date and collaborative.
+
+Use a [https://www.atlassian.com/git/tutorials/comparing-workflows#centralized-workflow](Centralized workflow) for keeping the manual up to date.
+
+Use a [feature branch workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow) for doing project tasks. Leave the branch on the server and I'll check it over.
+
+Use a [gitflow workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#feature-branch-workflow) for any projects (like portfolio) or applications on a portfolio.
+
+### Start writing better documentation
+
+Revise existing documentation and make it more clear. Add in more advanced concepts and commands you have learned.
+
+### Typography
+
+Create another typographic page. This time for reading. I'll create the layout, you make it look sexy.
+
+### Responsive Tasks
+
+Complete the existing task in responsive-progressive.
