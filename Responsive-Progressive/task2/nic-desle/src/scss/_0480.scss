@@ -1,17 +1,54 @@
-html {}
+
 
 body {
-	> header {
-		nav {
-			ul {}
+}
 
-			li {}
+header {
 
-			a {}
+	h1 {
+
+		img {
 		}
 	}
 
-	> section {}
+	p {
 
-	> footer {}
+	}
+}
+
+section {}
+
+.links {
+
+	div {
+
+
+		h2 {
+
+		}
+
+		ul {
+
+
+			li {
+
+				a {
+
+
+					&:hover {
+					}
+				}
+			}
+		}
+	}
+}
+
+.projects {
+	figure {
+		img {}
+
+		figcaption {
+
+		}
+	}
 }
