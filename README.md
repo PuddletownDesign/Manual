@@ -16,7 +16,8 @@
 12. [SASS/Stylus](https://github.com/RachelFrank/Manual/tree/master/SASS)
 13. [Typography](https://github.com/RachelFrank/Manual/tree/master/Typography)
 14. [Responsive-Progressive](https://github.com/RachelFrank/Manual/tree/master/Responsive-Progressive)
-*   UI-UX
+15. [UI-UX](https://github.com/RachelFrank/Manual/tree/master/UI-UX)
+
 *   Portfolio
 *   Javascript
 *   Javascript-Dev-Tools
