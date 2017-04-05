@@ -1,12 +1,12 @@
-# Scrumm Planning & Agile Development
+# scrum Planning & Agile Development
 
 Agile is encompassing term for different approaches to working with teams of people.
 
-Scrumm is a type of agile development. It's one of many patterns for implementing it. It's probably the most popular pattern (framework).
+scrum is a type of agile development. It's one of many patterns for implementing it. It's probably the most popular pattern (framework).
 
-It has a lot of zany terms like sprints, stories and stand ups. These will translate over to other agile/scrumm teams that you work with.
+It has a lot of zany terms like sprints, stories and stand ups. These will translate over to other agile/scrum teams that you work with.
 
-Here's a general overview of the scrumm approach of agile development.
+Here's a general overview of the scrum approach of agile development.
 
 Read through including all sub links on sidebar
 1.  https://www.atlassian.com/agile/developer
@@ -24,7 +24,7 @@ While you're reading this over, imagine how we will be using it. We are going to
 
 We will be using trello as a Storyboard. We will use a [plugin for trello to provide us with a burndown chart](https://www.burndownfortrello.com/#). Go ahead and connect that to our trello board.
 
-Al though unorthodox, I will be both product owner/ Scrumm masta. You will be scrumm team.
+Al though unorthodox, I will be both product owner/ scrum masta. You will be scrum team.
 
 ## Backlog
 
