@@ -6,7 +6,7 @@
 2.  [Git](https://github.com/RachelFrank/Manual/tree/master/Git)
 3.  [Atom](https://github.com/RachelFrank/Manual/tree/master/Atom)
 4.  [Markdown](https://github.com/RachelFrank/Manual/tree/master/Markdown)
-5.   Planning-Scrum
+5.  [Planning/Scrum](https://github.com/RachelFrank/Manual/tree/master/Planning-Scrum)
 6.  [HTML Content](https://github.com/RachelFrank/Manual/tree/master/HTML-Content)
 7.  [HTML Structure](https://github.com/RachelFrank/Manual/tree/master/HTML-Structure)
 8.  [HTML Interactive](https://github.com/RachelFrank/Manual/tree/master/HTML-Interactive)
