@@ -6,10 +6,11 @@ body {
 }
 
 header {
-	padding: 7em 10%;
+	padding: 1.7em 10%;
+	max-width: 700px;
 
 	h1 {
-		padding-bottom: 4em;
+		padding-bottom: 3.75em;
 
 		img {
 			width: 35px;
@@ -17,9 +18,11 @@ header {
 	}
 
 	p {
-		font-size: 2.4em;
-		letter-spacing: .11em;
-		line-height: 1.65em;
+		font-size: 1.95em;
+		font-weight: 100;
+		letter-spacing: .10em;
+		line-height: 1.45em;
+		padding-bottom: 4.5em;
 	}
 }
 
@@ -33,6 +36,8 @@ section {}
 		width: 35%;
 		padding-left: 10%;
 		padding-right: 3%;
+		vertical-align: top;
+
 
 		h2 {
 			text-transform: uppercase;
@@ -40,6 +45,13 @@ section {}
 			letter-spacing: .31em;
 			color: #999;
 			padding-bottom: 2em;
+			overflow: hidden;
+
+			span {
+				display: none;
+			}
+
+
 		}
 
 		ul {
@@ -47,7 +59,7 @@ section {}
 			padding-left: 0;
 			padding-bottom: 7em;
 			font-size: .9em;
-			line-height: 2.1em;
+			line-height: 2.3em;
 
 			li {
 				letter-spacing: .1em;
@@ -72,6 +84,8 @@ section {}
 		figcaption {
 			text-align: center;
 			padding: 3em 1em;
+			font-weight: 100;
+			padding: 10%
 		}
 	}
 }
