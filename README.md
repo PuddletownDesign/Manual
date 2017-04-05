@@ -6,17 +6,17 @@
 2.  [Git](https://github.com/RachelFrank/Manual/tree/master/Git)
 3.  [Atom](https://github.com/RachelFrank/Manual/tree/master/Atom)
 4.  [Markdown](https://github.com/RachelFrank/Manual/tree/master/Markdown)
-5.  [HTML Content](https://github.com/RachelFrank/Manual/tree/master/HTML-Content)
-6.  [HTML Structure](https://github.com/RachelFrank/Manual/tree/master/HTML-Structure)
-7.  [HTML Interactive](https://github.com/RachelFrank/Manual/tree/master/HTML-Interactive)
-8.  [CSS-Formatting](https://github.com/RachelFrank/Manual/tree/master/CSS-Formatting)
-9.  [CSS-Dev-Tools](https://github.com/RachelFrank/Manual/tree/master/CSS-Dev-Tools)
-10. [CSS-Layout](https://github.com/RachelFrank/Manual/tree/master/CSS-Layout)
-11. [SASS/Stylus](https://github.com/RachelFrank/Manual/tree/master/SASS)
-12. [Typography](https://github.com/RachelFrank/Manual/tree/master/Typography)
-13. [Responsive-Progressive](https://github.com/RachelFrank/Manual/tree/master/Responsive-Progressive)
+5.   Planning-Scrum
+6.  [HTML Content](https://github.com/RachelFrank/Manual/tree/master/HTML-Content)
+7.  [HTML Structure](https://github.com/RachelFrank/Manual/tree/master/HTML-Structure)
+8.  [HTML Interactive](https://github.com/RachelFrank/Manual/tree/master/HTML-Interactive)
+9.  [CSS-Formatting](https://github.com/RachelFrank/Manual/tree/master/CSS-Formatting)
+10.  [CSS-Dev-Tools](https://github.com/RachelFrank/Manual/tree/master/CSS-Dev-Tools)
+11. [CSS-Layout](https://github.com/RachelFrank/Manual/tree/master/CSS-Layout)
+12. [SASS/Stylus](https://github.com/RachelFrank/Manual/tree/master/SASS)
+13. [Typography](https://github.com/RachelFrank/Manual/tree/master/Typography)
+14. [Responsive-Progressive](https://github.com/RachelFrank/Manual/tree/master/Responsive-Progressive)
 *   UI-UX
-*   Planning-Scrum
 *   Portfolio
 *   Javascript
 *   Javascript-Dev-Tools
@@ -40,7 +40,7 @@
 
 ## Next up
 
-### Get good with git
+### Git good with git
 
 Use a [forking workflow](https://www.atlassian.com/git/tutorials/comparing-workflows#forking-workflow) for keeping configs up to date and collaborative.
 
