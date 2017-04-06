@@ -75,4 +75,20 @@ Form is subjective. It's in the eye of the beholder.
 
 Good design is where art meets a practical function.
 
-A good design is expressive towards the need it seeks to fulfill. 
+A good design is expressive towards the need it seeks to fulfill.
+
+## Iterative Design
+
+A visonary designer can fulfill the above while serving a need that has not been addressed yet.
+
+A great designer can take an existing design and improve on it.
+
+*   Coke/ Pepsi
+*   Transformers/Go Bots
+*   Hydrox/Oreos
+
+In one of these the sequel was vastly improved. There is great value in finding weak points in existing designs and being able to improve on them.
+
+Nobody wants to be eating hydrox. Yes, Hydrox came first. Yet, a  hydrox was such a compelling design in the first place that someone felt the need to make it better by simply adding a little bit more filling and making it not taste gross. This design became the basis for a mass produced cookie empire that has evolved and dominated for generations. It's iterative improvement.
+
+*Good thing Hydrox didn't have vicious cookie IP lawyers that wore oreo down until they were forced out of business or aquired by hydrox for a fraction of their worth. Actually, I guess [they did](http://empirenews.net/hydrox-to-sue-oreo-over-copyright-infringement-claims-company-copied-their-cookies/) in 2015, over a 103 years after oreo was founded. Hydrox claims it was a big case to build and needed time.*
