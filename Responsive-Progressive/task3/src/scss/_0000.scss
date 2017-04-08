@@ -1,0 +1,77 @@
+body {
+	$grey: #7F7F7F;
+	$lightgrey: #B2B2B2;
+	padding: 1em;
+
+	header {
+		// h1 {
+		// 	font-size: 1em;
+		// 	font-weight: 100;
+		// 	letter-spacing: 0.05em;
+		// 	text-transform: uppercase;
+		// 	text-align: center;
+		// 	color: $grey;
+		// 	padding: 0 2em 1em;
+		// 	border-bottom: 1px solid lightgrey;
+		// }
+
+		.vacation {
+			padding-top: 2em;
+
+			img {}
+
+			ul {
+				list-style: none;
+
+				li {
+					display: inline-block;
+					text-align: center;
+					text-transform: uppercase;
+					font-size: 0.8em;
+					letter-spacing: 0.25em;
+					color: $lightgrey;
+
+					span {
+						display: none;
+					}
+				}
+			}
+		}
+
+		nav {
+			display: none;
+
+			ul {
+				list-style: none;
+
+				a {}
+			}
+		}
+	}
+
+	figure {
+		background-image: url('images/storefront.png');
+
+		h1 {
+			color: white;
+			text-align: center;
+		}
+	}
+
+	.info {
+		p {
+			a {}
+		}
+	}
+
+	.black {
+		img {
+			display: inline-block;
+			max-width: 40%;
+			max-height: 40%;
+			text-align: center;
+		}
+	}
+
+	.basement {}
+}
