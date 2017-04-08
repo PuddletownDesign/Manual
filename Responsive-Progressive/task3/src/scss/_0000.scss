@@ -1,9 +1,53 @@
 body {
 	$grey: #7F7F7F;
 	$lightgrey: #B2B2B2;
-	padding: 1em;
+	padding: 3em 1em 1em;
+
+	a {
+		color: $green;
+		text-decoration: none;
+		&:hover {
+			color: black;
+		}
+	}
+
 
 	header {
+		>div {
+			padding-top: 2em;
+			img {}
+
+			ul {
+				list-style: none;
+				li {
+					display: inline-block;
+					text-align: center;
+					text-transform: uppercase;
+					font-size: 0.8em;
+					letter-spacing: o.25em
+					color: $lightgrey;
+
+					span {
+						display: none;
+					}
+				}
+			}
+			.address {
+				padding: 1em 0;
+				color: rgba(0,0,0,.3;
+				letter-spacing: .06em;
+			   font: bold "Lucida Grande", sans-serif;
+			   text-transform: uppercase;
+			   text-align: center;
+
+
+			   }
+		   }
+	   }
+
+
+			}
+		}
 		// h1 {
 		// 	font-size: 1em;
 		// 	font-weight: 100;
