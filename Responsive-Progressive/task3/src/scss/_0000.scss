@@ -1,65 +1,16 @@
 body {
-	$grey: #7F7F7F;
-	$lightgrey: #B2B2B2;
 	padding: 3em 1em 1em;
-
 	a {
 		color: $green;
 		text-decoration: none;
+
 		&:hover {
-			color: black;
+			color: $pink;
 		}
 	}
 
-
 	header {
-		>div {
-			padding-top: 2em;
-			img {}
-
-			ul {
-				list-style: none;
-				li {
-					display: inline-block;
-					text-align: center;
-					text-transform: uppercase;
-					font-size: 0.8em;
-					letter-spacing: o.25em
-					color: $lightgrey;
-
-					span {
-						display: none;
-					}
-				}
-			}
-			.address {
-				padding: 1em 0;
-				color: rgba(0,0,0,.3;
-				letter-spacing: .06em;
-			   font: bold "Lucida Grande", sans-serif;
-			   text-transform: uppercase;
-			   text-align: center;
-
-
-			   }
-		   }
-	   }
-
-
-			}
-		}
-		// h1 {
-		// 	font-size: 1em;
-		// 	font-weight: 100;
-		// 	letter-spacing: 0.05em;
-		// 	text-transform: uppercase;
-		// 	text-align: center;
-		// 	color: $grey;
-		// 	padding: 0 2em 1em;
-		// 	border-bottom: 1px solid lightgrey;
-		// }
-
-		.vacation {
+		> div {
 			padding-top: 2em;
 
 			img {}
@@ -80,12 +31,53 @@ body {
 					}
 				}
 			}
+
+			.address {
+				padding: 1em 0;
+				color: rgba(0,0,0,.3);
+				letter-spacing: 0.08em;
+				font: bold "Lucida Grande", sans-serif;
+				text-transform: uppercase;
+				text-align: center;
+
+				br {
+					display: none;
+				}
+
+				.zip {
+					display: none;
+				}
+
+				.phone {
+					font-weight: bold;
+					display: block;
+					letter-spacing: 0.27em;
+				}
+			}
 		}
 
 		nav {
-			display: none;
+			display: hidden;
+
+			&:before {
+				position: absolute;
+				top: 0;
+				content: "Menu";
+				font-size: 1em;
+				font-weight: 100;
+				letter-spacing: 0.05em;
+				text-transform: uppercase;
+				text-align: center;
+				color: $grey;
+				width: 94%;
+				left: 3%;
+				display: block;
+				padding: 1em 0;
+				border-bottom: 3px solid #eee;
+			}
 
 			ul {
+				display: none;
 				list-style: none;
 
 				a {}
@@ -95,27 +87,70 @@ body {
 
 	figure {
 		background-image: url('images/storefront.png');
+		background-size: 100%;
+		margin-top: 2em;
+		padding: 5em 0;
+		margin-bottom: 3em;
 
 		h1 {
 			color: white;
+			font-weight: 100;
+			font-size: 1.5em;
 			text-align: center;
+			text-transform: uppercase;
+			text-shadow: 0 0 5px #333;
 		}
 	}
 
+	section {
+		font-family: 'Roboto Slab', serif;
+		text-align: center;
+	}
+
 	.info {
+		padding: .5em 1.2em 0;
+		font-weight: 400;
+		color: $grey;
+		text-align: center;
+
 		p {
+			img {
+				max-width: 20%;
+				display: block;
+				text-align: center;
+				margin: 5% 40% 0;
+			}
 			a {}
 		}
 	}
 
 	.black {
+		color: $grey;
+		font-weight: 300;
+		padding: 0 1.5em;
+
+
+
 		img {
+			width: 100%;
+			width: 40%;
 			display: inline-block;
-			max-width: 40%;
-			max-height: 40%;
-			text-align: center;
+			padding: .5em;
 		}
 	}
 
-	.basement {}
+	.basement {
+		color: $grey;
+		margin-top: 1.3em 2em;
+		p {
+			font-weight: 400;
+		}
+	}
+
+	footer {
+		color: $green;
+		font-family: 'Roboto Slab', serif;
+		text-align: center;
+		margin: 2em;
+	}
 }
