@@ -3,6 +3,8 @@
 
 Each different OS has a default set of fonts loaded into it. Fonts rendered in the browser attempt to read these fonts if they are present on the system.
 
+![Typography](http://tinyimg.io/i/N9ez94m.jpg)
+
 ## Fonts in the browser
 
 Declared fonts in CSS in groups like this:
