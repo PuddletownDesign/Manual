@@ -1,17 +1,15 @@
 html {}
 
 body {
-	> header {
-		nav {
-			ul {}
+	figure {
+		width: 800px;
+		padding: 220px 0;
+		margin-bottom: 0;
+		h1 {
 
-			li {}
-
-			a {}
+		}
+		img {
+		
 		}
 	}
-
-	> section {}
-
-	> footer {}
 }
