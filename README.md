@@ -11,7 +11,7 @@
 7.  [HTML Structure](https://github.com/RachelFrank/Manual/tree/master/HTML-Structure)
 8.  [HTML Interactive](https://github.com/RachelFrank/Manual/tree/master/HTML-Interactive)
 9.  [CSS-Formatting](https://github.com/RachelFrank/Manual/tree/master/CSS-Formatting)
-10.  [CSS-Dev-Tools](https://github.com/RachelFrank/Manual/tree/master/CSS-Dev-Tools)
+10. [CSS-Dev-Tools](https://github.com/RachelFrank/Manual/tree/master/CSS-Dev-Tools)
 11. [CSS-Layout](https://github.com/RachelFrank/Manual/tree/master/CSS-Layout)
 12. [SASS/Stylus](https://github.com/RachelFrank/Manual/tree/master/SASS)
 13. [Typography](https://github.com/RachelFrank/Manual/tree/master/Typography)
@@ -19,6 +19,7 @@
 15. [UI-UX](https://github.com/RachelFrank/Manual/tree/master/UI-UX)
 
 *   Portfolio
+*   Optimization
 *   Javascript
 *   Javascript-Dev-Tools
 *   jQuery
