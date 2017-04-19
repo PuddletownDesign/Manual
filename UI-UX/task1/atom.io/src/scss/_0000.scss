@@ -1,0 +1,243 @@
+html {}
+
+body {
+	color: $black;
+	background-color: $white;
+
+	a {
+		color: $green;
+	}
+
+	nav {
+		display: none;
+
+		ul {
+			li {
+				a {}
+
+				.signin {}
+			}
+		}
+	}
+
+	main {
+		background-image: url('images/main-image.svg'), url('images/main-tile.png');
+		background-position: center top, 0 0;
+		background-repeat: no-repeat, repeat-x;
+		background-size: cover, cover;
+
+
+
+		header {
+			vertical-align: top;
+			padding-bottom: 9em;
+			h1 {
+				width: 74%;
+				max-width: 525px;
+
+				margin: 0 auto;
+				padding: 1em 0 1.3em;
+
+				img {
+				}
+			}
+
+			.tagline {
+				color: $lightgrey;
+				text-align: center;
+				font-size: 2em;
+				font-weight: 200;
+				padding-bottom: 0.5em;
+
+				span {
+					display: block;
+					font-size: 0.85em;
+					font-weight: 200;
+				}
+			}
+
+			.download {
+				display: block;
+				margin: 1.5em auto 1.2em;
+				width: 11em;
+				padding: 1.2em 0.6em;
+				border-radius: 0.4em;
+				text-align: center;
+				font-size: 1.2em;
+				color: $beige;
+				text-decoration: none;
+				background-color: $red;
+				letter-spacing: 0.03em;
+				box-shadow: 3px 3px 0 rgba(0, 0, 0, .19);
+			}
+
+			.platforms {
+				text-align: center;
+				padding-bottom: 5.5em;
+			}
+		}
+
+		.video {
+			display: none;
+
+			img {}
+		}
+	}
+
+	section {
+		padding: 1em;
+	}
+
+	.about {
+		text-align: center;
+		padding: 3em 3em 1.3em;
+		font-size: 1.2em;
+		margin-top: -12em;
+
+		div {
+			margin: 0 auto;
+			max-height: 400px;
+			max-width: 900px;
+			overflow: hidden;
+		}
+
+		p {
+			margin: 1.6em auto 0;
+			font-weight: 200;
+			letter-spacing: 0.04em;
+			max-width: 32em;
+
+		}
+	}
+
+	.features {
+		background-color: $beige;
+		text-align: center;
+		h2 {
+			text-align: center;
+			margin: 0.5em;
+		}
+
+		div {
+			width: 45%;
+			display: inline-block;
+			vertical-align: top;
+
+			padding: 0 0.4em 1em;
+
+			img {
+				max-width: 75px;
+				margin: 1.4em;
+			}
+
+			h3 {
+				font-size: 0.89em;
+			}
+
+			p {
+				font-weight: 200;
+				line-height: 1.4em;
+				letter-spacing: 0.04em;
+				margin: auto;
+				max-width: 80%;
+			}
+		}
+	}
+
+	.why-its-rad {
+		background-color: $paleteal;
+
+		div {
+			overflow: hidden;
+			padding: 0em 1em;
+			background-color: $white;
+			border-radius: 1em;
+			margin: 0 auto 2em;
+			max-width: 50em;
+
+			div {
+				max-width: 54%;
+				display: inline-block;
+				float: left;
+				h2 {
+					font-weight: 400;
+					padding-top: 1em;
+					font-size: 1.9em;
+					letter-spacing: 0.04em;
+				}
+
+				p {
+					line-height: 1.4em;
+					letter-spacing: 0.04em;
+					font-weight: 300;
+					max-width: 27em;
+
+				}
+			}
+
+			img {
+				max-width: 35%;
+				display: inlineblock;
+				float: right;
+				padding-top: 2.4em;
+			}
+
+			&:nth-child(even) {
+				div {
+					float: right;
+				}
+
+				img {
+					float: left;
+				}
+			}
+		}
+	}
+
+	.contact {
+		background-color: $beige;
+		padding: 4em 1.3em;
+		img {
+			display: none;
+		}
+
+		div {
+			h2 {
+				padding-left: 0.5em;
+			}
+
+			table {
+				tbody {
+					tr {
+						td {
+							padding: .5em 1em 0;
+
+							a {
+								text-decoration: none;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+		background-color: $khaki;
+		overflow: hidden;
+		text-align: center;
+		padding: 2em 1em;
+		ul {
+			display: none;
+			li {
+				a {}
+			}
+		}
+
+		img {
+			max-width: 20em;
+
+
+		}
+	}
+}

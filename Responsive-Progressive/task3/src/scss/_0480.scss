@@ -1,0 +1,84 @@
+body {
+
+	a {
+		&:hover {
+		}
+	}
+
+	header {
+		> div {
+			img {}
+			ul {
+				li {
+					span {
+					}
+				}
+			}
+			.address {
+				br {
+					display: none;
+				}
+				.zip {
+
+				}
+				.phone {
+
+				}
+			}
+		}
+		nav {
+
+			}
+
+			ul {
+
+
+				a {}
+			}
+		}
+
+
+	figure {
+
+
+		h1 {
+
+		}
+	}
+
+	section {
+
+	}
+
+	.info {
+
+		p {
+
+			img {
+
+			}
+			a {}
+		}
+	}
+
+	.black {
+
+		img {
+
+		}
+	}
+
+	.basement {
+
+		p {
+		
+		}
+		img {
+			max-width: 600px;
+		}
+	}
+
+	footer {
+
+	}
+}

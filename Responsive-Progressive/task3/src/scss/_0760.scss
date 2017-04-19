@@ -1,0 +1,98 @@
+body {
+	padding: 0 1em 1em;
+
+	a {
+		&:hover {}
+	}
+
+	header {
+		> div {
+			img {}
+
+			ul {
+				li {
+					span {}
+				}
+			}
+
+			.address {
+				br {
+					display: none;
+				}
+
+				.zip {}
+
+				.phone {}
+			}
+		}
+
+		nav {
+			display: block;
+
+			&:before {
+				display: none;
+				//position: absolute;
+				//top: 0;
+				//content: "Menu";
+				//font-size: 1em;
+				//font-weight: 100;
+				//letter-spacing: 0.05em;
+				//text-transform: uppercase;
+				//text-align: center;
+				//color: $grey;
+				//width: 94%;
+				//left: 3%;
+				//padding: 1em 0;
+				//border-bottom: 3px solid #eee;
+			}
+
+			ul {
+				display: inline-block;
+				padding: 0.5em;
+				width: 100%;
+				text-align: center;
+
+				li {
+					display: inline-block;
+					font-weight: 200;
+					margin: 0 auto;
+					letter-spacing: 0.05em;
+				}
+
+				a {
+					color: $grey;
+					padding: 1.5em;
+
+					&:hover {
+						color: $green;
+						background: url("images/hover2.png") top center no-repeat;
+					}
+				}
+			}
+		}
+	}
+
+	figure {
+		h1 {}
+	}
+
+	section {}
+
+	.info {
+		p {
+			img {}
+
+			a {}
+		}
+	}
+
+	.black {
+		img {}
+	}
+
+	.basement {
+		p {}
+	}
+
+	footer {}
+}

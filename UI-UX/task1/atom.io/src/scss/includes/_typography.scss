@@ -1,0 +1,46 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, arial, freesans, clean, sans-serif;
+	font-size: 85%;
+}
+
+h1 {
+	font-size: 2.5em;
+	font-weight: 100;
+	line-height: 1.255em;
+	padding-bottom: .331em;
+	padding-top: .31em;
+}
+
+h2 {
+	font-weight: 200;
+	font-size: 1.8em;
+	line-height: 1.33em;
+	padding-bottom: .06em;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 1.2em;
+	line-height: 1.57em;
+	padding-top: 1.57em;
+}
+
+h4,
+h5,
+h6 {
+	font-size: 1.1em;
+	line-height: 1.57em;
+	padding-top: 1.57em;
+	font-weight: 100;
+}
+
+dl,
+ol,
+p,
+ul {
+	font-size: 1em;
+	line-height: 1.67em;
+	padding-bottom: 1.2em;
+	padding-top: .47em;
+	/* 	padding-top: 1.97em; */
+}
