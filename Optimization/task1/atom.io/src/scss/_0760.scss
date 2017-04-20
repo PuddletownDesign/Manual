@@ -1,0 +1,156 @@
+html {}
+
+body {
+	nav {
+		display: block;
+		background-color: $brown;
+		font-size: .9em;
+
+		ul {
+			@include container-size(80%);
+			list-style: none;
+			padding: 0;
+
+			li {
+				display: inline-block;
+				padding: .8em .8em .8em 0;
+
+				a {
+					text-decoration: none;
+					color: $beige;
+
+					&:hover {
+						color: $green;
+					}
+				}
+			}
+
+			.signin {
+				display: block;
+				float: right;
+			}
+		}
+	}
+
+	main {
+		text-align: center;
+
+		header {
+			display: inline-block;
+			width: 40%;
+			padding: 3em 0 8em;
+
+			h1 {
+				padding-bottom: 0;
+
+				img {}
+			}
+
+			.tagline {
+				font-size: 1.8em;
+
+				span {}
+			}
+
+			.download {}
+
+			.platforms {}
+		}
+
+		.video {
+			display: inline-block;
+			width: 40%;
+			padding-top: 2em;
+
+			img {
+				max-width: 341px;
+			}
+		}
+	}
+
+	.about {
+		img {}
+
+		p {}
+	}
+
+	.features {
+		h2 {}
+
+		div {
+			margin-bottom: 1em;
+
+			img {}
+
+			h3 {
+				font-size: 1.3em;
+				padding-top: 0;
+			}
+
+			p {}
+		}
+	}
+
+	.why-its-rad {
+		padding-top: 4em;
+
+		div {
+			margin-bottom: 3em;
+			padding-left: 2em;
+			padding-right: 2em;
+
+			div {
+				padding-top: 3em;
+
+				h2 {}
+
+				p {}
+			}
+
+			img {
+				padding-top: 2.4em;
+			}
+		}
+	}
+
+	.contact {
+		text-align: center;
+		padding: 1em;
+
+		div {
+			padding-top: 4.9em;
+			display: inline-block;
+			max-width: 44%;
+			vertical-align: top;
+
+			h2 {
+				text-align: left;
+			}
+
+			table {
+				tbody {
+					tr {
+						td {}
+					}
+				}
+			}
+		}
+
+		img {
+			display: inline-block;
+			padding-right: 5em;
+			width: 38%;
+			max-width: 300px;
+		}
+	}
+
+	footer {
+		ul {
+			li {
+				a {}
+			}
+		}
+
+		img {}
+	}
+}
