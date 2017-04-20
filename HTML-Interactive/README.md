@@ -1,6 +1,6 @@
 # HTML Interactive elements
 
-*also data tables too...*
+_also data tables too..._
 
 I suggest reading through this whole article.
 
@@ -24,12 +24,10 @@ Make sure to begin experimenting with emmet at this phase. also start learning t
 6.  note the adjustments to the `colspan` and `rowspan` attributes on two of the tables. Just understand that the count of all cells needs to add up to the same in all rows.
 7.  Lastly the forms we'll be using more once we get into javascript and then especially into server side stuff. For now it's just important to know how to build them properly and get them to validate.
 
-
 ## Specifications
 
-*   Must have proper doctype and validate (don't worry about warnings)
-*   have proper meta tags (with description tags)
-
+-   Must have proper doctype and validate (don't worry about warnings)
+-   have proper meta tags (with description tags)
 
 ## HTML5 Tags you need to know at this point
 
@@ -43,69 +41,68 @@ When reading through read about them in the groups I've outlined below. It will 
 
 ### Document tags
 
-*   head
-    *   meta
-    *   link
-	*   script
-*   body
-
+-   head
+    -   meta
+    -   link
+    -   script
+-   body
 
 ### layout and document structure
 
-*   article
-*   main
-*   section
-*   aside
-*   header
-*   footer
+-   article
+-   main
+-   section
+-   aside
+-   header
+-   footer
 
 ### Block level
 
-*   h1-h6
-*   p
-*   ul
-    *   li
-    *   ol
-    *   blockquote
-	*   cite
+-   h1-h6
+-   p
+-   ul
+    -   li
+    -   ol
+    -   blockquote
+    -   cite
 
 ### inline
 
-*   a
-*   abbr
-*   em
-*   strong
-*   img
+-   a
+-   abbr
+-   em
+-   strong
+-   img
 
 ### Preformatted text and code
 
-*   code
-    *   pre
+-   code
+    -   pre
 
 ### Misc Formatting
 
-*   br
-*   hr
+-   br
+-   hr
 
 ### Non-semantic elements used for positioning (css/js)
 
-*   div
-*   span
+-   div
+-   span
 
 ### Tables
 
-*   table
-    *   thead
-        *   tr
-            *   td
-    *   tfoot
+-   table
+    -   thead
+        -   tr
+            -   td
+    -   tfoot
 
 ### Forms / Interaction
 
-*   form
-*   input
-    *   text, checkbox, radio
-*   textarea
-*   select
-    *   option
-*   button
+-   form
+-   input
+    -   text, checkbox, radio
+-   textarea
+-   select
+    -   option
+-   button

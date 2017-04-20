@@ -9,9 +9,8 @@ It has a lot of zany terms like sprints, stories and stand ups. These will trans
 Here's a general overview of the scrum approach of agile development.
 
 Read through including all sub links on sidebar
-1.  https://www.atlassian.com/agile/developer
-2.  https://www.atlassian.com/agile/teams
-
+1.  <https://www.atlassian.com/agile/developer>
+2.  <https://www.atlassian.com/agile/teams>
 
 While you're reading this over, imagine how we will be using it. We are going to
 
@@ -38,7 +37,7 @@ You want to learn how to estimate how long any given thing will take to accompli
 
 This whole thing is a continuous exercise in learning how to estimate what you're doing.
 
-https://www.atlassian.com/agile/estimation
+<https://www.atlassian.com/agile/estimation>
 
 ### Planning Poker
 

@@ -14,12 +14,12 @@ Try to match the screen shot by adding CSS into the style.css file.
 
 ### These are all the CSS styles that I used to generate the example:
 
-*   background-color
-*   padding
-*   margin
-*   width
-*   text-align
-*   color
+-   background-color
+-   padding
+-   margin
+-   width
+-   text-align
+-   color
 
 ## Basic workflow... at least for now ;)
 
@@ -33,13 +33,13 @@ Try to match the screen shot by adding CSS into the style.css file.
 
 I've included the html, body and h1 tags for you for reference. Look them up and figure out where to apply them. Have fun with the `blockquote`.
 
-CSS will take some serious reading, but it's very very very simple once you get the hang of it. I have a lot of opinions on the subject. Lucky for you it's about 400% easier than it was 10 years ago for various reasons.
+CSS will take some serious reading, but it's    simple once you get the hang of it. I have a lot of opinions on the subject. Lucky for you it's about 400% easier than 10 years ago for a lot reasons.
 
-**Code snippets and shortcuts are 100% required at this point.** You want to be able to toggle through list of values per keyboard shortcut. There's a lot here to memorize unfortunately.
+**Code snippets and shortcuts are 100% required at this point.** You want to be able to toggle through list of values per keyboard shortcut. There's a lot here to memorize.
 
-## Additional reading
+## Further reading
 
-Start reading up on CSS and modify this html and css file and experiment after the task is complete. We'll Cover layouts and more advanced features after a little more HTML and some theory.
+Start reading up on CSS and change this html and css file and experiment after the task is complete. We'll Cover layouts and more advanced features after a little more HTML and some theory.
 
 I suggest reading through at least the long ass first page here:
 
@@ -47,7 +47,7 @@ I suggest reading through at least the long ass first page here:
 
 # Neat shit to think about
 
-So... you apply CSS to HTML. Markdown turns into HTML. Applying CSS to processed markdown is literally applying CSS to HTML. Markdown = HTML (after it's processed).
+So... you apply CSS to HTML. Markdown turns into HTML. Applying CSS to processed markdown is applying CSS to HTML. Markdown = HTML (after it's processed).
 
 Knowing that, a markdown /#/# turns into an h2 means then in css:
 
@@ -61,4 +61,4 @@ h2 {
 
 ## ¡ Important !
 
-Even though markdown is so easy, **think in HTML, not markdown**, even when writing markdown. Markdown is a subset that you can turn into HTML. It's only for content areas. HTML itself is more powerful and extensive. In chamber 5 we'll explore more of what HTML can do.
+Even though markdown is so easy, **think in HTML, not markdown**, even when writing markdown. Markdown is a subset that you can turn into HTML. It's for content areas. HTML itself is more powerful and extensive. In chamber 5 we'll explore more of what HTML can do.

@@ -8,9 +8,7 @@
 
 **Be sure to download Lato from google fonts, include it in a font directory and include it with @font-face**
 
-```
-font-family: "Georgia";
-font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif
-```
+    font-family: "Georgia";
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif
 
 These are default fonts except lato. You can find that on google fonts.

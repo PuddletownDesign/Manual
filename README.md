@@ -17,28 +17,27 @@
 13. [Typography](https://github.com/RachelFrank/Manual/tree/master/Typography)
 14. [Responsive-Progressive](https://github.com/RachelFrank/Manual/tree/master/Responsive-Progressive)
 15. [UI-UX](https://github.com/RachelFrank/Manual/tree/master/UI-UX)
-
-*   Portfolio
-*   Optimization
-*   Javascript
-*   Javascript-Dev-Tools
-*   jQuery
-*   Task Runners / Bundlers
-*   Javascript-Advanced
-*   Unit-Testing
-*   D3
-*   Statisics
-*   Geometry
-*   Shell-Scripting
-*   Node
-*   Node-Koa-Express
-*   Databases
-*   APIs
-*   Isometrics/React
-*   Linux-nginx
-*   Web-App
-*   Mobile-App
-*   Desktop-App
+16. Portfolio
+17. [Optimization](https://github.com/RachelFrank/Manual/tree/master/Optimization)
+18. Javascript
+19. Javascript-Dev-Tools
+20. jQuery
+21. Task Runners / Bundlers
+22. Javascript-Advanced
+23. Unit-Testing
+24. D3
+25. Statisics
+26. Geometry
+27. Shell-Scripting
+28. Node
+29. Node-Koa-Express
+30. Databases
+31. APIs
+32. Isometrics/React
+33. Linux-nginx
+34. Web-App
+35. Mobile-App
+36. Desktop-App
 
 ## Next up
 

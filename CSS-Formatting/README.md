@@ -6,21 +6,22 @@ CSS is the styling language used to apply to HTML. You select HTML elements and 
 
 ## Selectors
 
-*   tag		- ex. `body p`
-*   id		- ex. `#message p`
-*   class		- ex. `.message p`
+-   tag		- ex. `body p`
+-   id		- ex. `#message p`
+-   class		- ex. `.message p`
 
 ## Attributes
 
-*   `margin` -  adds space around the outside of the box
-*   `padding` - adds space to the inside of the box
-*   `background-color` - changes the background color of the element
-*   `width` - sets the width of the element
-*   `text-align` - left, center, right
-*   `color` - color of the text in an element
+-   `margin` -  adds space around the outside of the box
+-   `padding` - adds space to the inside of the box
+-   `background-color` - changes the background color of the element
+-   `width` - sets the width of the element
+-   `text-align` - left, center, right
+-   `color` - color of the text in an element
 
 ## Syntax:
-*example:*
+
+_example:_
 **tag Selectors:**
 
 ```css
@@ -37,9 +38,9 @@ selector {
 }
 ```
 
-**can only be used once per page**
+**used once per page**
 
-*on that tip, it's considered good practice to pick your selectors wisely*
+_on that tip, it's considered good practice to pick your selectors wisely_
 
 **class selectors:**
 
@@ -50,6 +51,7 @@ selector {
 ```
 
 ## External HTML css link snippet:
+
 ```html
 <link rel="stylesheet" type="text.css" href="style.css">
 ```

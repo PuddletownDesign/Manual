@@ -1,255 +1,220 @@
 body {
-  line-height: 1.5; }
+    line-height: 1.5;
+}
 
-article,
-aside,
-audio,
-blockquote,
-body,
-canvas,
-caption,
-code,
-dd,
-del,
-details,
-dfn,
-div,
-dl,
-dt,
-fieldset,
-figcaption,
-figure,
-footer,
-form,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-header,
-hgroup,
-html,
-iframe,
-img,
-legend,
-li,
-mark,
-menu,
-nav,
-object,
-ol,
-p,
-pre,
-section,
-span,
-summary,
-table,
-tbody,
-td,
-tfoot,
-th,
-thead,
-time,
-tr,
-ul,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 100%;
-  font-family: inherit;
-  vertical-align: baseline; }
+article, aside, audio, blockquote, body, canvas, caption, code, dd, del, details, dfn, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, iframe, img, legend, li, mark, menu, nav, object, ol, p, pre, section, span, summary, table, tbody, td, tfoot, th, thead, time, tr, ul, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
 
-input,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit; }
+input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
 
 table {
-  border-collapse: separate;
-  border-spacing: 0; }
+    border-collapse: separate;
+    border-spacing: 0;
+}
 
-caption,
-td,
-th {
-  text-align: left;
-  font-weight: normal; }
+caption, td, th {
+    text-align: left;
+    font-weight: normal;
+}
 
-table,
-td,
-th {
-  vertical-align: middle; }
+table, td, th {
+    vertical-align: middle;
+}
 
-a img,
-abbr,
-acronym,
-fieldset,
-img {
-  border: 0; }
+a img, abbr, acronym, fieldset, img {
+    border: 0;
+}
 
 a:focus {
-  outline: none; }
+    outline: none;
+}
 
-code,
-pre {
-  font: 115% monospace; }
+code, pre {
+    font: 115% monospace;
+}
 
-blockquote::before,
-q::before {
-  content: ''; }
+blockquote::before, q::before {
+    content: '';
+}
 
-blockquote::after,
-q::after {
-  content: ''; }
+blockquote::after, q::after {
+    content: '';
+}
 
-ol,
-ul {
-  padding-left: 1.5em; }
+ol, ul {
+    padding-left: 1.5em;
+}
 
+article, aside, audio, canvas, details, details, figcaption, figcaption, figure, figure, footer, header, hgroup, hgroup, main, mark, menu, nav, section, summary, video {
+    display: block;
+}
 
-article,
-aside,
-audio,
-canvas,
-details,
-details,
-figcaption,
-figcaption,
-figure,
-figure,
-footer,
-header,
-hgroup,
-hgroup,
-main,
-mark,
-menu,
-nav,
-section,
-summary,
-video {
-  display: block; }
 
 /* em, strong{font-style:normal;font-weight:400;} */
+
+
 /* br, hr {display: none;} */
-button,
-iframe,
-img,
-input,
-textarea {
-  max-width: 100%; }
+
+button, iframe, img, input, textarea {
+    max-width: 100%;
+}
 
 .error {
-  color: red;
-  font-weight: bold; }
+    color: red;
+    font-weight: bold;
+}
 
 .video {
-  position: relative;
-  padding-bottom: 56.25%;
-  /* 16:9 */
-  padding-top: 25px;
-  height: 0; }
-  .video iframe {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+
+.video iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; }
+    height: 100%;
+}
 
-button,
-input,
-textarea {
-  width: 98%;
-  padding: 1%; }
+button, input, textarea {
+    width: 98%;
+    padding: 1%;
+}
 
 body {
-  font-family: Arial, Verdana, sans-serif;
-  font-size: 100%;
-  /* background: url(graphics/14.gif); */ }
+    font-family: Arial, Verdana, sans-serif;
+    font-size: 100%;
+    /* background: url(graphics/14.gif); */
+}
 
 h1 {
-  font-size: 2.5em;
-  font-weight: bold;
-  line-height: 1.255em;
-  padding-bottom: 0.331em;
-  /* 	padding-bottom: .94em; */
-  padding-top: 0.31em; }
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1.255em;
+    padding-bottom: 0.331em;
+    /* 	padding-bottom: .94em; */
+    padding-top: 0.31em;
+}
 
 h2 {
-  font-weight: bold;
-  font-size: 1.8em;
-  line-height: 1.33em;
-  padding-bottom: 0.06em; }
+    font-weight: bold;
+    font-size: 1.8em;
+    line-height: 1.33em;
+    padding-bottom: 0.06em;
+}
 
 h3 {
-  font-weight: bold;
-  font-size: 1.4em;
-  line-height: 1.57em;
-  padding-top: 1.57em; }
+    font-weight: bold;
+    font-size: 1.4em;
+    line-height: 1.57em;
+    padding-top: 1.57em;
+}
 
-h4,
-h5,
-h6 {
-  font-size: 1em;
-  line-height: 1.57em;
-  padding-top: 1.57em;
-  font-weight: bold; }
+h4, h5, h6 {
+    font-size: 1em;
+    line-height: 1.57em;
+    padding-top: 1.57em;
+    font-weight: bold;
+}
 
-dl,
-ol,
-p,
-ul {
-  font-size: 1em;
-  line-height: 1.57em;
-  padding-bottom: 1.2em;
-  padding-top: 0.47em;
-  /* 	padding-top: 1.97em; */ }
+dl, ol, p, ul {
+    font-size: 1em;
+    line-height: 1.57em;
+    padding-bottom: 1.2em;
+    padding-top: 0.47em;
+    /* 	padding-top: 1.97em; */
+}
 
 html {
-  background-color: #4b4b4b; }
+    background-color: #4b4b4b;
+}
 
 table {
-  background: transparent url("stars.jpg") center center no-repeat;
-  background-size: 160%;
-  text-align: center; }
-  table th {
+    background: transparent url("stars.jpg") center center no-repeat;
+    background-size: 160%;
+    text-align: center;
+}
+
+table th {
     background-color: black;
     color: #fbfbfb;
-    padding: 3em; }
-  table td {
+    padding: 3em;
+}
+
+table td {
     background-color: rgba(19, 19, 19, 0.5);
     padding: 2em;
-    color: #f7f7f1; }
-  table tr:nth-child(1) td:nth-child(3) {
-    background-color: rgba(30, 62, 233, 0.39); }
-  table tr:nth-child(1) td:nth-child(4) {
-    background-color: rgba(30, 62, 233, 0.39); }
-  table tr:nth-child(2) td:nth-child(3) {
-    background-color: rgba(144, 160, 242, 0.54); }
-  table tr:nth-child(2) td:nth-child(4) {
-    background-color: rgba(109, 123, 249, 0.66); }
-  table tr:nth-child(3) td:nth-child(3) {
-    background-color: rgba(236, 238, 245, 0.51); }
-  table tr:nth-child(3) td:nth-child(4) {
-    background-color: rgba(144, 160, 242, 0.54); }
-  table tr:nth-child(4) td:nth-child(3) {
-    background-color: rgba(239, 241, 170, 0.5); }
-  table tr:nth-child(4) td:nth-child(4) {
-    background-color: rgba(236, 238, 245, 0.51); }
-  table tr:nth-child(5) td:nth-child(3) {
-    background-color: rgba(238, 244, 135, 0.52); }
-  table tr:nth-child(5) td:nth-child(4) {
-    background-color: rgba(239, 241, 170, 0.5); }
-  table tr:nth-child(6) td:nth-child(3) {
-    background-color: rgba(245, 203, 94, 0.55); }
-  table tr:nth-child(6) td:nth-child(4) {
-    background-color: rgba(246, 194, 125, 0.58); }
-  table tr:nth-child(7) td:nth-child(3) {
-    background-color: rgba(245, 103, 94, 0.55); }
-  table tr:nth-child(7) td:nth-child(4) {
-    background-color: rgba(245, 139, 94, 0.55); }
+    color: #f7f7f1;
+}
+
+table tr:nth-child(1) td:nth-child(3) {
+    background-color: rgba(30, 62, 233, 0.39);
+}
+
+table tr:nth-child(1) td:nth-child(4) {
+    background-color: rgba(30, 62, 233, 0.39);
+}
+
+table tr:nth-child(2) td:nth-child(3) {
+    background-color: rgba(144, 160, 242, 0.54);
+}
+
+table tr:nth-child(2) td:nth-child(4) {
+    background-color: rgba(109, 123, 249, 0.66);
+}
+
+table tr:nth-child(3) td:nth-child(3) {
+    background-color: rgba(236, 238, 245, 0.51);
+}
+
+table tr:nth-child(3) td:nth-child(4) {
+    background-color: rgba(144, 160, 242, 0.54);
+}
+
+table tr:nth-child(4) td:nth-child(3) {
+    background-color: rgba(239, 241, 170, 0.5);
+}
+
+table tr:nth-child(4) td:nth-child(4) {
+    background-color: rgba(236, 238, 245, 0.51);
+}
+
+table tr:nth-child(5) td:nth-child(3) {
+    background-color: rgba(238, 244, 135, 0.52);
+}
+
+table tr:nth-child(5) td:nth-child(4) {
+    background-color: rgba(239, 241, 170, 0.5);
+}
+
+table tr:nth-child(6) td:nth-child(3) {
+    background-color: rgba(245, 203, 94, 0.55);
+}
+
+table tr:nth-child(6) td:nth-child(4) {
+    background-color: rgba(246, 194, 125, 0.58);
+}
+
+table tr:nth-child(7) td:nth-child(3) {
+    background-color: rgba(245, 103, 94, 0.55);
+}
+
+table tr:nth-child(7) td:nth-child(4) {
+    background-color: rgba(245, 139, 94, 0.55);
+}

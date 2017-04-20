@@ -6,18 +6,18 @@ Git is the flow of a project. It watches everything that changes. You can revert
 
 ## Reference
 
-This is the best place to start. Work through the examples. *Ignore anything mentioning SVN, you can skip over it.*
+This is the best place to start. Work through the examples. _Ignore anything mentioning SVN, you can skip over it._
 
 <https://www.atlassian.com/git>
 
-
 ## Oh my zsh Shortcuts
+
 Once you learn the commands, use these shortcuts:
 <https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet#git>
 
-
 ## Notation
- \* =*zsh shortcut*
+
+ \* =_zsh shortcut_
 
 ## Basic Workflow
 
@@ -66,8 +66,6 @@ You forgot something before you commited. You can add it to the last commit by u
 `git checkout <commit> <filename>` - reverts a specific file
 `git checkout <commit>` - reverts the whole working directory
 
-
-
 **Be sure to commit changes that are relevent to the commit message change. Assholes put generic messages or group files in illogical ways. Don't be an asshole.**
 
 ### Going back to a previous commit
@@ -77,8 +75,6 @@ You forgot something before you commited. You can add it to the last commit by u
 ### Creating branches for changes or fixes
 
 It's best practice to create a branch and then merge it in with the master branch once it's tested and complete.
-
-
 
 ### Utility Commands
 
@@ -105,10 +101,10 @@ It's best practice to create a branch and then merge it in with the master branc
 \*`gc`
 
 ### Branching/ Checking out
+
 `GIT BRANCH`	list all project branches
 `GIT BRANCH <branch name>`	creates a new branch
 \*`gb`
-
 
 `GIT BRANCH -d <branch name>`	Deletes branch
 \*`gbd`
@@ -124,6 +120,7 @@ It's best practice to create a branch and then merge it in with the master branc
 \*`gcb`
 
 ### Pushing/ Pulling / Cloning
+
 `GIT CLONE <repo url>` - Clones the repository locally
 \* `gcl`
 
@@ -134,9 +131,10 @@ It's best practice to create a branch and then merge it in with the master branc
 \*`gpull` - Pulls the remote updates to the repo
 
 ### Diffing / Merging
+
 `GIT DIFF` shows the difference between the working directory and the staging area
 
-`GIT MERGE <branch name>`	used to join file changes from one branch to another *must do from MASTER
+`GIT MERGE <branch name>`	used to join file changes from one branch to another \*must do from MASTER
 \*`gm`
 
 ### Reverting
