@@ -1,49 +1,45 @@
 # Javascript
 
-For most of this part you will be working through the book *You Don't know Javascript*. Read each of the books through beginning to end.
+## First Steps
 
-## How to use these books
+Complete the codecademy learn javascript course
 
-Use chrome developer tools to load and run each of the examples in this book. Set break points in any code you are not 100% sure how it's executing. Make sure to understand each concept and example.
+<https://www.codecademy.com/courses/learn-javascript/>
 
-Make sure to make use of or create snippets for any general code blocks or functions or keywords you come across.
+## Try Jquery Guide
 
-### About ES6 References in the book
+<http://try.jquery.com>
 
-For whatever reason the author included several code examples in ES6. This is the next version of javascript that will begin using soon. Examples written in ES6 are to be modified to work with javascript ES5.
+## Update the Atom.io Site with jquery
 
-Replace the following keywords in examples
+Add a responsive menu
+Add some text fades and animations
+Add smooth scroll
 
-	1. 	Replace `const` with `var`
-	2.	Replace `let` with `var`
+## Watch funfunfunction on youtube
 
-## Basic structures
+<https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/playlists>
 
+## The Good Parts
 
-### Conditionals
+Read Douglas Crockford's - Javascript the Good Parts.
 
-#### if / elseif / else
+## ES6
 
-The most commonly used type of conditional statement
+Review changes in ES6 and begin writing and transpiling all code in ES6
 
-#### switch
+## Functional Programming Book
 
-the less used type. has the advantage of being able to *fall through* conditions.
+Either the Apress or Manning Book
 
-*Sometimes it looks a little bit more elegant too... IMHO*
+## You don't know Javascript Series
 
-#### Ternary
+Read and experiment with the entire you don't know javascript series.
 
-the least used but most compact type of conditional.
+<https://github.com/getify/You-Dont-Know-JS>
 
-### Loops
+## Math Tests
 
-### for
+<https://projecteuler.net>
 
-The most common for scanning over number arrays
-
-### foreach
-
-The most common for scanning over named properties/keys
-
-#### while / do while
+Solve these issues with Javascript and publish your source code here.
