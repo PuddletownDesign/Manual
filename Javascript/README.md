@@ -6,23 +6,23 @@ Complete the codecademy learn javascript course
 
 <https://www.codecademy.com/courses/learn-javascript/>
 
-## Try Jquery Guide
+## Jquery
 
-<http://try.jquery.com>
+<https://www.codecademy.com/learn/jquery>
 
 ## Update the Atom.io Site with jquery
 
-Add a responsive menu
-Add some text fades and animations
-Add smooth scroll
-
-## Watch funfunfunction on youtube
-
-<https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/playlists>
+-   Add a responsive menu
+-   Add some text fades and animations
+-   Add smooth scroll
 
 ## The Good Parts
 
 Read Douglas Crockford's - Javascript the Good Parts.
+
+## Watch funfunfunction on youtube
+
+<https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/playlists>
 
 ## ES6
 
